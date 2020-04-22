@@ -1,0 +1,140 @@
+/* Remove display none and un comment to show __coupertcontainer */
+.__coupert-container {
+    width: 100%;
+    height: 34px;
+    max-width: 590px;
+    display: none;
+    /*display: flex;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: normal;
+}
+
+.__coupert-cashback-container {
+    max-width: 100%;
+    white-space: nowrap;
+    height: 34px;
+    background: rgba(248, 248, 248, 1);
+    border: 1px solid rgba(192, 192, 192, 1);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    font-family: MeiryoUI;
+    font-weight: bold;
+    color: rgba(85, 85, 85, 1);
+    line-height: 33px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.__coupert-cashback-container img{
+    margin-right: 6px;
+}
+.__coupert-cashback-container:hover {
+    transition:background .2s ease-in-out;
+    background: rgba(232, 232, 232, 1);
+}
+
+.__coupert-cashback-container .__coupert-icon {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: rgba(253, 76, 70, 1);
+}
+
+.__coupert-cashback-container .__coupert-cashback-rate{
+    color: #FD4C46;
+}
+
+.__coupert-hover-tips {
+    position: relative;
+}
+
+/*.__coupert-hover-tips a,.__coupert-how-it-works{
+    text-decoration:underline
+}*/
+
+/*.__coupert-hover-tips a {
+    display: none;
+    padding: 2px 5px;
+    position: absolute;
+    height: 22px;
+    line-height: 22px;
+    top: 36px;
+    left: -10px;
+    font-size: 12px;
+    color: #dadada;
+    z-index:90;
+    white-space:nowrap;
+    border-radius:3px;
+    background-color:#292a2a
+}
+
+.__coupert-hover-tips a:hover {
+    color:#dadada;
+}
+.__coupert-hover-tips a:before {
+    position:absolute;
+    top: -18px;
+    left: 10px;
+    content:'';
+    border-top:10px solid transparent;
+    border-bottom:10px solid #292a2a;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent
+}*/
+.__coupert-how-it-works-link{
+    position: absolute;
+    top: 35px;
+    left: -139px;
+    max-width: 400px;
+    width: 300px;
+    color: #dadada;
+    padding: 9px 12px 9px;
+    font-size: 12px;
+    max-width: 400px;
+    min-width: 200px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 3px;
+    background-color: #292a2a;
+    display: none;
+    margin: 0;
+    z-index: 10;
+    white-space: normal;
+}
+.__coupert-how-it-works-link .canclick{
+    text-decoration: underline;
+}
+.__coupert-how-it-works-link:hover{
+    text-decoration: none;
+}
+.__coupert-how-it-works-link:before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background:#292a2a;
+    transform: rotate(45deg);
+    top: -4px;
+    left: calc(50% - 5px);
+}
+.__coupert-cashback-container img{
+    width: 26px;
+    height: 26px
+}
+.activate-cashback-actived-title{
+    font-size: 12px;
+}
+button{
+    background-color:#ff2445;
+}

@@ -1,0 +1,82 @@
+{
+    "background": {
+        "scripts": [
+            "js/lib/ga.js",
+            "js/lib/jquery.min.js",
+            "js/lib/md5.min.js",
+            "js/lib/redirect-path.js",
+            "js/lib/js.local-session.js",
+            "js/lib/js.cookie.js",
+            "js/lib/js.storage.js",
+            "js/lib/moment.js",
+            "js/lib/polyfill.js",
+            "js/lib/tab-list.js",
+            "js/ext/common.js",
+            "js/ext/common-background.js",
+            "js/service/coupon.js",
+            "js/service/user.js",
+            "js/service/store.js",
+            "js/service/home.js",
+            "js/service/service.js",
+            "js/service/activity.js",
+            "js/service/statistics.js",
+            "js/ext/background.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": {
+            "38": "icon/default-38.png"
+        },
+        "default_title": "3rd Coupon - Automatic Coupon Finder"
+    },
+    "content_scripts": [
+        {
+            "all_frames": false,
+            "css": ["css/inject-cb-button.css"],
+            "js": [
+                "js/lib/jquery.min.js",
+                "js/lib/md5.min.js",
+                "js/lib/bililite-range.js",
+                "js/lib/jquery.sendkeys.js",
+                "js/lib/promise.js",
+                "js/lib/js.local-session.js",
+                "js/lib/js.cookie.js",
+                "js/lib/js.storage.js",
+                "js/lib/lang.js",
+                "js/lib/polyfill.js",
+                "js/lib/i18n.translator.js",
+                "js/ext/common.js",
+                "js/ext/common-content.js",
+                "js/ext/function.js",
+                "js/ext/content.js"
+            ],
+            "match_about_blank": false,
+            "matches": ["http://*/*", "https://*/*"],
+            "run_at": "document_end"
+        }
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com; object-src 'self'",
+    "description": "__MSG_appDescription__",
+    "icons": {
+        "128": "icon/logo-128.png",
+        "16": "icon/logo-16.png",
+        "48": "icon/logo-48.png"
+    },
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgSZyTE0bgqvNL0gZgT0s+DsSDrGO0iskmQR7A/Ayn00oal8Frp6g9kVnh4P+7ZlYqNpF/ggXpprBMLQQAlVo57XRB4rJbHEJOSr5z1qf90NT3zdiNNQdJC6tOTLZMZnR13LA2677Kl7K/u2vR/3r1FcvkeuHC42u2I89h5Vz1s80e9Hc98fsXM0gtiCz1QKW/mf0d4YcFgyLTdvm5106WXEH/maqRKlFuo+w0P33qnRflzX7y2ca4lMYUr5uc2/M9FE1EnhoKfu4c37u/h4773welAafdMWQaI7u/lx+reaQCSPxX6mYIhx4pc7u7RS7hVAQMAWJlRHiRtFxMfSb7QIDAQAB",
+    "manifest_version": 2,
+    "name": "__MSG_appName__",
+    "permissions": [
+        "cookies",
+        "tabs",
+        "storage",
+        "unlimitedStorage",
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "3.2.40",
+    "default_locale": "en_US",
+    "web_accessible_resources": ["img/*", "css/*", "page/*"]
+}

@@ -1,0 +1,1340 @@
+{
+	"appName":{
+		"message":"Coupert - Encontre Cupons e Cashback",
+		"description":"App Name"
+	},
+	"appDescription":{
+		"message":"O Coupert procura cupons automaticamente, aplica o melhor código de cupom no checkout e oferece cashback.",
+		"description":"App Description"
+	},
+	"lang": {
+		"message":"pt",
+		"description":""
+	},
+	"coupon_found_tips":{
+		"message":"CUPONS ENCONTRADOS",
+		"description":""
+	},
+	"apply_savins":{
+		"message":"Aplicar cupons",
+		"description":""
+	},
+	"trun_off":{
+		"message":"Não apareça novamente dentro de 1 dia",
+		"description":""
+	},
+	"popup_disabled":{
+		"message":"<img src=\"/img/disabled-tips.png\" >Pop up está desativado para esta loja em 24 horas</div>",
+		"description":""
+	},
+	"sign_up_notice":{
+		"message":"Inscreva-se para receber minhas recompensas &gt;",
+		"description":""
+	},
+	"store_how_work":{
+		"message":"Como funciona?",
+		"description":""
+	},
+	"store_how_work_hover":{
+		"message":"<span class=\"noclick\">Seja recompensado por itens que você já está comprando com a Coupert Gold! Os comerciantes nos dão uma pequena comissão para gerar negócios e os compartilhamos diretamente com você através do nosso programa gratuito de recompensas Coupert Gold. E o Coupert Gold será adicionado à sua conta automaticamente quando formos informados sobre a transação, mas a dose da ação não ocorrerá em tempo real. Antes de fazer seu pedido, confirme se o Coupert é o único ou o último programa de devolução que você ativou.</span><br><span class=\"canclick\">Saiba mais</span>",
+		"description":""
+	},
+	"no_login_notice":{
+		"message":"Por favor, faça o login para desbloquear o seu reembolso",
+		"description":""
+	},
+	"store_codes_enable":{
+		"message":"Ativar Auto-teste pop-up",
+		"description":""
+	},
+	"store_codes_enabled":{
+		"message":"Auto-teste pop-up ativado",
+		"description":""
+	},
+	"store_test_codes":{
+		"message":"Tentando códigos",
+		"description":""
+	},
+	"store_submit_btn":{
+		"message":"Submeter",
+		"description":""
+	},
+	"no_code_tips_title":{
+		"message":"Nenhum código disponível no momento",
+		"description":""
+	},
+	"no_code_tips_subtitle":{
+		"message":"<b>Groupon</b> normalmente tem cupons para tentar no check-out, mas não tem quaisquer códigos de trabalho hoje.",
+		"description":""
+	},
+	"store_location_switch":{
+		"message":"clique para alterar as imagens para a esquerda ou a direita",
+		"description":""
+	},
+	"store_user_balance":{
+		"message":"Seu saldo atual: <span class=\"user-balance\"></span>",
+		"description":""
+	},
+	"at_testing_title":{
+		"message":"Coupert está automaticamente testando todos os cupons disponíveis.",
+		"description":""
+	},
+	"at_testing_code":{
+		"message":"Código de teste:",
+		"description":""
+	},
+	"best_code":{
+		"message":"O melhor código aplicado:&nbsp;&nbsp;",
+		"description":""
+	},
+	"saving_amount":{
+		"message":"Você economizou&nbsp;&nbsp;<span id=\"best-code\">???</span>&nbsp;com Coupert!",
+		"description":""
+	},
+	"at_test_continue":{
+		"message":"CONTINUAR A COMPRAR",
+		"description":""
+	},
+	"at_test_review":{
+		"message":"Avaliar",
+		"description":""
+	},
+	"at_test_share":{
+		"message":"<p>Compartilhe Coupert e ganhe mais na primeira compra de seus amigos  <span>&#36;6</span>.</p>",
+		"description":""
+	},
+	"failed_not_log_cashback_desc":{
+		"message":"Por favor <a id=\"login-in-element\" href=\"javascript:void(0);\">log in</a> para ativar este bonus.",
+		"description":""
+	},
+	"failed_logged_cashback_desc":{
+		"message":"Você já tem a poupança máxima. Pague com confiança!",
+		"description":""
+	},
+	"at_test_review_us":{
+		"message":"<span>Comente</span> para nós atendê-lo melhor!",
+		"description":""
+	},
+	"at_test_submit":{
+		"message":"Submeter",
+		"description":""
+	},
+	"cashback_active":{
+		"message":"Ativar Cash Back",
+		"description":""
+	},
+	"log_in_with_facebook":{
+		"message":"Entrar com facebook",
+		"description":""
+	},
+	"account_or":{
+		"message":"OU",
+		"description":""
+	},
+	"account_sign_up":{
+		"message":"CATASTRE-SE",
+		"description":""
+	},
+	"account_sign_in":{
+		"message":"ASSINAR",
+		"description":""
+	},
+	"account_sign_in_tips":{
+		"message":"Login para Ver detalhes ouro",
+		"description":""
+	},
+	"account_email":{
+		"message":"E-mail",
+		"description":""
+	},
+	"account_balance":{
+		"message":"Saldo atual",
+		"description":""
+	},
+	"pending_gold":{
+		"message":"Pendente",
+		"description":""
+	},
+	"confirmed_gold":{
+		"message":"Confirmado",
+		"description":""
+	},
+	"account_withdraw":{
+		"message":"Levantar",
+		"description":""
+	},
+	"account_cashback_reward":{
+		"message":"O Coupert Gold pode ser trocado por dinheiro via Paypal.",
+		"description":""
+	},
+	"account_firstname":{
+		"message":"Nome de usuário",
+		"description":""
+	},
+	"account_invite_friend":{
+		"message":"Convidar amigos",
+		"description":""
+	},
+	"account_help":{
+		"message":"Ajuda",
+		"description":""
+	},
+	"account_rate_coupert":{
+		"message":"Avaliar Coupert",
+		"description":""
+	},
+	"account_settings":{
+		"message":"Definições",
+		"description":""
+	},
+	"account_logout":{
+		"message":"Sair",
+		"description":""
+	},
+	"open_cookie_zero":{
+		"message":"Ops",
+		"description":""
+	},
+	"store_rewards_reactive":{
+		"message":"Reativar",
+		"description":""
+	},
+	"coupon_codes":{
+		"message":"Código de Cupons",
+		"description":""
+	},
+	"cash_back_rate":{
+		"message":"Hoje Cash Back Taxa",
+		"description":""
+	},
+	"coupons_found_title":{
+		"message":"CUPONS ENCONTRADOS",
+		"description":""
+	},
+	"store_coupon_codes":{
+		"message":"Código de Cupons",
+		"description":""
+	},
+	"store_rewards_rate":{
+		"message":"Hoje Cash Back Taxa",
+		"description":""
+	},
+	"store_cashback_rate":{
+		"message":"<span class=\"cashback-rate\">1 - 2%</span>",
+		"description":""
+	},
+	"reward_activated_rate":{
+		"message":"<span class=\"cashback-rate\">1 - 2%</span>&nbsp;Cash Back Ativado <div><b><span class=\"how-it-works-hover\"><span class=\"noclick\">Seja recompensado por itens que você já está comprando com a Coupert Gold! Os comerciantes nos dão uma pequena comissão para gerar negócios e os compartilhamos diretamente com você através do nosso programa gratuito de recompensas Coupert Gold. E o Coupert Gold será adicionado à sua conta automaticamente quando formos informados sobre a transação, mas a dose da ação não ocorrerá em tempo real. Antes de fazer seu pedido, confirme se o Coupert é o único ou o último programa de devolução que você ativou.</span><br><span class=\"canclick\">Saiba mais</span></span></b></div>",
+		"description":""
+	},
+	"earn_up_cashback":{
+		"message":"Ativar&nbsp;<span class=\"cashback-rate\">1 - 2%</span>&nbsp;Cash Back <div><b><span class=\"how-it-works-hover\"><span class=\"noclick\">Seja recompensado por itens que você já está comprando com a Coupert Gold! Os comerciantes nos dão uma pequena comissão para gerar negócios e os compartilhamos diretamente com você através do nosso programa gratuito de recompensas Coupert Gold. E o Coupert Gold será adicionado à sua conta automaticamente quando formos informados sobre a transação, mas a dose da ação não ocorrerá em tempo real. Antes de fazer seu pedido, confirme se o Coupert é o único ou o último programa de devolução que você ativou.</span><br><span class=\"canclick\">Saiba mais</span></span></b></div>",
+		"description":""
+	},
+	"store_rewards_active":{
+		"message":"Ativar",
+		"description":""
+	},
+	"cashback_tips":{
+		"message":"<b class=\"locked\"></b><b class=\"unlocked\" style=\"display: none;\"></b><b class=\"cashback-plus\" style=\"display: none;\">+</b> &nbsp;<span class=\"red-num\">Até <span class=\"cashback-rate\">2%</span></span>&nbsp;<span class=\"coupon-saved-cashback\">cash back disponível</span><span class=\"hover-tips\"><b class=\"hover-tips-icon\"></b><a href=\"javascript:void(0);\">Como funciona?</a></span>",
+		"description":""
+	},
+	"used_title":{
+		"message":"Este código foi usado",
+		"description":""
+	},
+	"used_description":{
+		"message":"Veja se há mais oferta disponível?",
+		"description":""
+	},
+	"test_again":{
+		"message":"Teste novamente",
+		"description":""
+	},
+	"changes_title":{
+		"message":"Fez alterações em seu carrinho?",
+		"description":""
+	},
+	"changes_description":{
+		"message":"Re-teste cupons para encontrar ofertas",
+		"description":""
+	},
+	"store_submit_offer":{
+		"message":"Título(Optional)",
+		"description":""
+	},
+	"account_gold":{
+		"message":"Coupert Gold",
+		"description":""
+	},
+	"account_account":{
+		"message":"Conta",
+		"description":""
+	},
+	"account_sign_up_tips":{
+		"message":"Junte-se Coupert e ganhe 100 Gold",
+		"description":""
+	},
+	"sign_up_with_facebook":{
+		"message":"Cadastre-se com facebook ",
+		"description":""
+	},
+	"open_cookie_part1":{
+		"message":"<p style='line-height:21px'>Coupert está desativado agora neste site, já que você está usando outros sites de cupom ou programa de recompensas.<br>Clique no botão abaixo para reativar o Coupert e ganhar suas recompensas.</p>",
+		"description":""
+	},
+	"activate_now":{
+		"message":"Ativar agora",
+		"description":""
+	},
+	"store_search_cancel":{
+		"message":"Cancelar",
+		"description":""
+	},
+	"best_code_desc":{
+		"message":"Usuários do Coupert já pouparam dinheiro com este cupom.",
+		"description":""
+	},
+	"best_code_copy":{
+		"message":"Usar agora",
+		"description":""
+	},
+	"best_code_try":{
+		"message":"Auto Teste Todos os Cupons",
+		"description":""
+	},
+	"forgot_password":{
+		"message":"Esqueceu-se de sua senha?",
+		"description":""
+	},
+	"forgot_password_notice":{
+		"message":"Por favor, insira o endereço de e-mail associado à sua conta do Coupert e lhe enviaremos um link para redefinir sua senha.",
+		"description":""
+	},
+	"forgot_continue":{
+		"message":"Continuar",
+		"description":""
+	},
+	"reset_success":{
+		"message":"<p class=\"redefinir-senha-sucesso\">Redefinir link enviado com sucesso para <span class=\"redefinir-usário-nome\"></span></p><p class=\"case-two-tips\">Se você não leu o e-mail, procure em sua pasta de spam ou verifique se o endereço de e-mail mostrado acima está correto.</p>",
+		"description":""
+	},
+	"report_feedback":{
+		"message":"Relatar um feedback",
+		"description":""
+	},
+	"feedback_submit":{
+		"message":"Submeter",
+		"description":""
+	},
+	"result_saving_copy":{
+		"message":"copiado",
+		"description":""
+	},
+	"sign_in_password_error":{
+		"message":"E-mail ou senha incorreta",
+		"description":""
+	},
+	"email_tips":{
+		"message":"Este endereço de e-mail já foi registrado.",
+		"description":""
+	},
+	"user_currrent_coupons":{
+		"message":"Seu saldo atual:<span class=\"user-currrent-balances\"></span>",
+		"description":""
+	},
+	"how_it_works":{
+		"message":"Como funciona?",
+		"description":""
+	},
+	"how_it_works_hover":{
+		"message":"<span class=\"noclick\">O reembolso é diferente dos cupons. Seja recompensado por coisas que você já está comprando com a Coupert Gold! Os comerciantes nos dão uma pequena comissão para gerar negócios e os compartilhamos diretamente com você através do nosso programa gratuito de recompensas Coupert Gold. Você pode resgatar via PayPal facilmente.</span><br><span class=\"canclick\">Saber mais</span>",
+		"description":""
+	},
+	"reward_activated_desc":{
+		"message":"Completar suas compras e ganhar seu cash back.",
+		"description":""
+	},
+	"reset_faile":{
+		"message": "<p class=\"case-one-tips\">Este endereço de e-mail não foi registrado.</p><p class=\"sign-up-now\">Cadastre-se agora.</p>",
+		"description":""
+	},
+	"invite_friends":{
+		"message":"Convidar amigos",
+        "description":""
+	},
+	"invite_friends_desc":{
+		"message":"Indique um amigo, ganhe &#36;5 e um bonus de 20% do cash back do seu amigo quando fizer compra com o Coupert.",
+        "description":""
+	},
+	"join_tips_words":{
+        "message":"<a>Cadastre-se ao programa do Coupert Embaixador, ganha até <b id='ambassador-money'>&#36;5,000</b> >></a>",
+        "description":""
+	},
+	"inform_gold_title":{
+		"message":"Parabéns!",
+		"description":""
+	},
+	"inform_gold_sub_title":{
+		"message":"Já recebeu <span class=\"gold-increase-number\">300</span> <span class=\"gold-yellow\">gold</span> <span class=\"gold-green\">(= <span class=\"gold-increase-number-dollar\">&#36;3</span>)</span>",
+		"description":""
+	},
+	"inform_gold_sub_title2":{
+		"message":"<span class=\"gold-increase-number\"></span> Coupert Gold aumentou.",
+		"description":""
+	},
+	"inform_what_gold":{
+		"message":"O que é o Coupert Gold?",
+		"description":""
+	},
+	"inform_gold_get_it":{
+		"message":"ENTENDI",
+		"description":""
+	},
+	"inform_qualified":{
+		"message":"E qualificado para levantar",
+		"description":""
+	},
+	"inform_withdraw_money":{
+		"message":"<span class=\"small\">&#36;</span><span class=\"withdraw-money-int\">10</span><span class=\"withdraw-money-sign\">.</span><span class=\"small withdraw-money-decimal\">00</span>",
+		"description":""
+	},
+	"inform_redeem":{
+		"message":"Levantar",
+		"description":""
+	},
+	"inform_see_gold_detail":{
+		"message":"Veja meu detalhe de Gold",
+		"description":""
+	},
+	"share_ambassador_program":{
+		"message":"Desbloquear o seu <span>&#36;5,000</span> Bonus",
+		"description":""
+	},
+	"ambassador_banner":{
+		"message":"<img src=\"/img/ambassador-banner-en.png\">",
+        "description":""
+	},
+	"ambassador_banner_desc":{
+		"message":"<img src=\"/img/ambassador-banner-desc-en.png\">",
+        "description":""
+	},
+	"more_detail":{
+		"message":"Mais Informação",
+        "description":""
+	},
+	"sign_up_password_tips":{
+		"message":"Pelo menos 6 caracteres",
+        "description":""
+	},
+	"feedback_submit_msg":{
+		"message":"Submeteu com sucesso!",
+		"description":""
+	},
+    "login_tips":{
+        "message":"<span class=\"blue-num\"><a  id=\"login-in-element\" href=\"javascript:void(0);\">Faça login</a></span> para ativar até <span class=\"cashback-rate\">10%</span> cash back",
+        "description":""
+    },
+    "logged_cashback_tips":{
+        "message":"<span class=\"cashback-num red-num\" i18n=\"store_cashback_rate\">Até&nbsp;<span class=\"cashback-rate\">2%</span></span>&nbsp;cash back após a compra",
+        "description":""
+    },
+    "not_logged_cashback_tips":{
+        "message":"<span class=\"cashback-num red-num\" i18n=\"store_cashback_rate\">Até&nbsp;<span class=\"cashback-rate\">2%</span></span>&nbsp;cash back disponível",
+        "description":""
+    },
+    "at_test_review_tips":{
+        "message":"A sua opinião motiva o Coupert a faz-lhe poupar mais!",
+        "description":""
+    },
+    "at_test_share_tips":{
+        "message":"<span style=\"font-size:19px;\">Indique um amigo, recebe <strong>&#36;5</strong> recompensas e ele receberá <strong>&#36;2</strong> bonus.</span>",
+        "description":""
+    },
+    "falided_test_titel":{
+        "message":"Você já tem o melhor preço.",
+        "description":""
+    },
+    "no_cashback_desc":{
+        "message":"O Coupert já testou todos os cupons disponíveis<br> na Internet. Pague com confiança!",
+        "description":""
+    },
+    "help_us_better":{
+    	"message":"A sua avaliação faz-nos servo-los melhor!",
+        "description":""
+    },
+    "user_current_balance":{
+ 		"message":"Seu saldo atual",
+        "description":""
+ 	},
+ 	"user_current_balance_detail":{
+ 		"message":"<span class=\"user-balance\" style=\"font-size: 1.4rem;\">&#36;9.21</span><span class=\"get-more\" style=\"font-size: 1.4rem;\">Ganhar mais</span>",
+        "description":""
+ 	},
+ 	"increase_and_withdraw":{
+ 		"message":" Levantar <span class=\"withdraw-num\">&#36;10.10</span>",
+        "description":""
+ 	},
+ 	"withdraw_warning":{
+ 		"message":"<p><strong>Falha no levantamento do Cash Back.</strong>  Por favor, verifique sua informação or contacte <a href=\"mailto:service@coupert.com\">service@coupert.com</a>.</p><span class=\"withdraw-close\"></span>",
+        "description":""
+ 	},
+	"cashback_first_active":{
+		"message": "Ativar <span class=\"cashback-rate\">1 - 2%</span> Cash Back",
+		"description":""
+	},
+	"cashback_first_actived":{
+		"message": "<span class=\"cashback-rate\">1 - 2%</span> Cash Back Activated",
+		"description":""
+	},
+	"cb_override_h3":{
+		"message": "Cash Back é perdido!",
+		"description":""
+	},
+	"cb_override_desc":{
+		"message": "Seu dinheiro de volta não está mais ativo <br> porque você clicou em um link de outro <br>site de cupons ou d'un programme de cash back.",
+		"description":""
+	},
+	"cb_re_activate_btn":{
+		"message": "Re-Ativar <span class=\"re-activate-num\">2%</span> Cash Back",
+		"description":""
+	},
+	"cb_override_tips":{
+		"message": "Não quero receber Cash Back por agora",
+		"description":""
+	},
+	"invite_friends_title":{
+		"message": "<span style=\"font-size:26px;\">Você está qualificado para receber mais poupanças!</span>",
+		"description":""
+	},
+	"trun_off_2":{
+		"message": "Não aparece dentro de 2 dias",
+		"description":""
+	},
+	"refer_friends_desc":{
+		"message": "Indique um amigo, receba <strong>&#36;5</strong> e <strong>20%</strong> extra bonus do cash back de seu amigo quando fizer compras com o Coupert.",
+		"description":""
+	},
+	"popup_disabled_2": {
+	    "message": "<img src=\"/img/disabled-tips.png\" >Pop up está desativado durante 48 horas.",
+	    "description":""
+	},
+	"user_privacy_policy_I":{
+	    "message": "Ao clicar no botão de entrar,eu concordo com os ",
+	    "description":""
+	},
+	"user_privacy_policy_II":{
+	    "message": "Termos de uso",
+	    "description":""
+	},
+	"user_privacy_policy_III":{
+	    "message": "os",
+	    "description":""
+	},
+	"user_privacy_policy_IV":{
+	    "message": "Termos de CashBack",
+	    "description":""
+	},
+	"user_privacy_policy_V":{
+	    "message": "e já li a ",
+	    "description":""
+	},
+	"user_privacy_policy_VI":{
+	    "message": "Política de Privacidade",
+	    "description":""
+	},
+	"user_privacy_policy_VII":{
+	    "message": "Ao clicar no botão de cadastrar-se,eu concordo com os ",
+	    "description":""
+	},
+	"activate_later": {
+	    "message": "<span style=\"font-size:12px\">Ativar depois</span>",
+	    "description":""
+	},
+	"cb_notify_turn_off": {
+	    "message": "<span style=\"font-size:12px\">Não pop up outra vez durante 1 dia</span>",
+	    "description":""
+	},
+	"no_support_title":{
+		"message": "Ainda não oferecemos suporte a este site.",
+		"description":""
+	},
+	"no_support_subtitle":{
+		"message": "Se realmente for um site de varejo e você precisar, informe-nos.<b class=\"need-it\">Envie o site </b>",
+		"description":""
+	},
+	"need_it":{
+		"message": "Preciso",
+		"description":""
+	},
+	"code_checkout" :{
+		"message": "Economize tempo: a Coupert coletou todos os cupons disponíveis na Internet.",
+		"description":""
+	},
+	"need_it_after" :{
+		"message": "Obrigada pela sua resposta. Estamos a resolver isso.",
+		"description":""
+	},
+	"coupert_active":{
+		"message": "Coupert está ativo agora",
+		"description":""
+	},
+	"click_apply_coupons":{
+		"message": "Quando coupert aparece em checkout, clica o botão de \"aplicar cupons\" para poupança immediate ",
+		"description":""
+	},
+	"guidance_got_it":{
+		"message": "Já conheci",
+		"description":""
+	},
+	"cb_closetips":{
+		"message": "Dica do Coupert: <span class=\"lightfont\">clique o botão vermelho <img src=\"../img/logo.png\" width=\"26\" height=\"26\"> acima caso queira ativar cashback de novo.</span><button class=\"close-btn\"></button>",
+		"description":""
+	},
+	"at_closetips":{
+		"message": "Dica do Coupert: <span class=\"lightfont\">clique o botão vermelho <img src=\"../img/logo.png\" width=\"26\" height=\"26\"> acima caso queira tentar códigos de novo.</span><button class=\"close-btn\"></button>",
+		"description":""
+	},
+	"daily_check_in":{
+		"message": "Check-in diário <b><span> Faça o check-in todos os dias para ganhar mais Coupert Gold! Você precisa fazer o check-in consecutivamente para reivindicar a próxima recompensa. Se você não fizer o check-in consecutivamente, a contagem será redefinida e reiniciada. Ganhe até 500 Gold extra depois de conhecer um determinado número de dias de check-in por mês. <i class=\"learn-more-link\"> Saiba mais <i></span></b>",
+		"description":""
+	},
+	"to_datedetail":{
+		"message": " Regras ",
+		"description":""
+	},
+	"checked_days":{
+		"message": "Dia De Checkin",
+		"description":""
+	},
+	"earn_gold":{
+		"message": "Total de ouro no check-in",
+		"description":""
+	},
+	"checkin_before_btn":{
+		"message": "clique para checkin de hoje",
+		"description":""
+	},
+	"checkin_after_btn":{
+		"message": "<img src=\"/img/check-after.png\"> já fez checkin de hoje",
+		"description":""
+	},
+	"congratulations":{
+		"message": "parabéns",
+		"description":""
+	},
+	"get_gold_num_before":{
+		"message": "Você ganhou ",
+		"description":""
+	},
+	"get_gold_num_after":{
+		"message": "Ouro hoje",
+		"description":""
+	},
+	"checked_in_day":{
+		"message": "Dia",
+		"description":""
+	},
+	"checked_in_days":{
+		"message": "Dias",
+		"description":""
+	},
+	"daily_check_in_records":{
+		"message": "Registro de checkin recente",
+		"description":""
+	},
+	"total_earn_gold" :{
+		"message": "Ouro ganho total",
+		"description":""
+	},
+	"how_it_works_tips" :{
+		"message": "Veja como isto trabalha quando o site está apoiado.",
+		"description":""
+	},
+	"go_how_it_works" :{
+		"message": "Provar agora",
+		"description":""
+	},
+	"not_support_activity_tips" :{
+		"message": "Não tem  intenção em comprar agora, só quer ganhar algum ouro de Coupert para a troca de dinheiro?",
+		"description":""
+	},
+	"go_activity_checkin" :{
+		"message": "Sim",
+		"description":""
+	},
+	"no_code_how_it_works_tips" :{
+		"message": "Veja como isto trabalha quando Coupert encontra copons num site de compra.",
+		"description":""
+	},
+	"no_code_activity_tips" :{
+		"message": "Tenta outras maneiras para poupar dinheiro?",
+		"description":""
+	},
+	"Today": {
+		"message": "Hoje",
+		"description":""
+	},
+	"about_coupert": {
+		"message": "Sobre Coupert",
+		"description":""
+	},
+	"daily_tasks": {
+		"message": "Tarefas diárias",
+		"description":""
+	},
+	"forget_password": {
+		"message": "Esqueceu a senha",
+		"description":""
+	},
+	"see_the_detail": {
+		"message": "Veja os detalhes >",
+		"description":""
+	},
+	"new_user_wraper_tit": {
+		"message": "Economias automáticas agora está pronto.",
+		"description":""
+	},
+	"new_user_wraper_first": {
+		"message": "Quando você estiver em um site de varejo suportado, o ícone \"c\" na barra de ferramentas ficará vermelho. <span class=\"read-more\">leia mais</span>",
+		"description":""
+	},
+	"new_user_wraper_sec": {
+		"message": "O Coupert será exibido, testará e aplicará automaticamente o melhor cupom funcional ao seu carrinho no Checkout, ou você também poderá copiar e aplicar os cupons disponíveis.",
+		"description":""
+	},
+	"new_user_wraper_third": {
+		"message": "Além disso, você pode ganhar 1 - 40% de<br> <span class=\"new-user-cashback\">cashback <span class=\"how-it-works-hover-newuser\" style=\"display:none\" data-utm_content=\"welcome_user\"><span class=\"noclick\">O reembolso é diferente dos cupons. Seja recompensado por coisas que você já está comprando com a Coupert Gold! Os comerciantes nos dão uma pequena comissão para gerar negócios e os compartilhamos diretamente com você através do nosso programa gratuito de recompensas Coupert Gold. Você pode resgatar via PayPal facilmente.</span><br><span class=\"canclick\">Saber mais</span></span></span> Apenas clique no botão Ativar para obter economias extras.<span class=\"read-less\"> leia menos</span>",
+		"description":""
+	},
+	"found_code_tips": {
+		"message": "Encontrou um cupom que não temos?",
+		"description":""
+	},
+	"share_code_click": {
+		"message": "Compartilhe conosco,",
+		"description":""
+	},
+	"share_code_benefit": {
+		"message": "e você receberá 10 - 100 Coupert Gold.",
+		"description":""
+	},
+	"submit_tit": {
+		"message": "Enviar um cupom",
+		"description":""
+	},
+	"submit_btn": {
+		"message": "Enviar",
+		"description":""
+	},
+	"cancel_submit": {
+		"message": "CANCELAR",
+		"description":""
+	},
+	"submit_success_tips": {
+		"message": "Compartilharemos seu cupom com a comunidade Coupert assim que um membro da equipe analisá-lo.",
+		"description":""
+	},
+	"complete_submit": {
+		"message": "Concluído",
+		"description":""
+	},
+	"submit_another_code": {
+		"message": "Enviar outro cupom",
+		"description":""
+	},
+	"web_site": {
+		"message": "Site",
+		"description":""
+	},
+	"submit_code": {
+		"message": "Cupom",
+		"description":""
+	},
+	"expire_day": {
+		"message": "Expiração (01-12-2019)",
+		"description":""
+	},
+	"submit_description": {
+		"message": "Descrição",
+		"description":""
+	},
+	"welcome_new_user": {
+		"message": "Bem-vindo<br>ao coupert!",
+		"description":""
+	},
+	"report_get":{
+		"message": "Reporte & Ganhe 20 Gold",
+		"description":""
+	},
+	"need_it_tips":{
+		"message": "Algumas restrições se aplicam <span class=\"need-it-tips-hover\">Você pode receber 20 Gold como recompensa enviando sites de varejo que você precisa. O máximo é 60 Gold por semana. Se o site enviado não atender às condições, o ouro poderá ser cancelado. *100 Gold = &#36;1, podem ser resgatados via PayPal.</span>",
+		"description":""
+	},
+	"click_after_login":{
+		"message": "Submetida!<i></i>",
+		"description":""
+	},
+	"click_after_login_no_gold":{
+		"message": "Relatar com sucesso!",
+		"description":""
+	},
+	"click_after_repeat_submit":{
+		"message": "Você denunciou este site.",
+		"description":""
+	},
+	"auto_test_title":{
+		"message": "Cansado de copiar? Informe-nos para adicionar <span>Auto-Teste <ul class=\"auto-test-hover\"><li>Com apenas um clique, o Coupert encontra e testa todos os cupons em segundos e aplica os melhores cupons em funcionamento.</li><li>Se não houver economia ativa no carrinho, isso significa que você já tem o preço mais baixo.</li><li>Quando você encontrar um botão \"Aplicar cupons\", basta clicar nele.</li><li>Até agora, você pode usar essa mágica em mais de 8.000 lojas em todo o mundo.</li></ul></span> a esta loja.",
+		"description":""
+	},
+	"auto_test_btn":{
+		"message": "Adicionar Auto-Teste",
+		"description":""
+	},
+	"Full_Name":{
+		"message": "Nome completo",
+		"description":""
+	},
+	"Birthdate":{
+		"message": "Aniversário",
+		"description":""
+	},
+	"Gender":{
+		"message": "Gênero",
+		"description":""
+	},
+	"Male":{
+		"message": "Masculino",
+		"description":""
+	},
+	"Female":{
+		"message": "Fêmea",
+		"description":""
+	},
+	"modify_user_info_update":{
+		"message": "Atualizar",
+		"description":""
+	},
+	"earn_more_gold":{
+		"message": "Ganhe Mais Gold",
+		"description":""
+	},
+	"install_coupert":{
+		"message": "Instalar Coupert",
+		"description":""
+	},
+	"join_coupert":{
+		"message": "juntar Coupert",
+		"description":""
+	},
+	"try_demo":{
+		"message": "Tentar a Demo",
+		"description":""
+	},
+	"complete_profile":{
+		"message": "Complete Perfil <a href=\"javascript:void(0)\" class=\"complete-profile-tips\">Adicione nome, sexo e data de nascimento para receber 500 Gold recompensas de aniversário.</a>",
+		"description":""
+	},
+	"invite_friends_process":{
+		"message": "<span>Convidar Amigos</span><span>+ até 1.000.000 Gold</span>",
+		"description":""
+	},
+	"daily_check_in_process":{
+		"message": "<span>Checkin Diário</span><span>+ 5 ~ 500 Gold</span>",
+		"description":""
+	},
+	"error_result_cashback_tips":{
+		"message": "E Coupert oferece-lhe <span class=\"red-num\">EXTRA </span><span class=\"cashback-num red-num\"><span class=\"cashback-rate\">1 - 2%</span><a class=\"how-it-works-link\" data-url=\"/how-it-works\" href=\"javascript:void(0)\">Como funciona?</a></span>&nbsp;cashback para este pedido após a compra.",
+		"description":""
+	},
+	"error_cashback_activate":{
+		"message": "Ativar",
+		"description":""
+	},
+	"error_cashback_activated":{
+		"message": "Ativado",
+		"description":""
+	},
+	"no_cashback_title":{
+		"message": "Nenhum cupom de trabalho no momento.",
+		"description":""
+	},
+	"no_cashback_tips":{
+		"message": "Mas a Coupert oferece a você &nbsp; <span><span class=\"red-num gold-num\">200 Gold <a class=\"gold-num-hover\" href=\"javascript:void(0)\">200Gold = &#36;2, pode ser resgatado via PayPal.</span></a></span> &nbsp;em recompensa por usar nosso serviço.",
+		"description":""
+	},
+	"no_cashback_unlock_rewards":{
+		"message": "DESBLOQUEIE RECOMPENSAS AGORA",
+		"description":""
+	},
+	"no_cashback_rewards_unlocked":{
+		"message": "RECOMPENSAS DESBLOQUEADAS",
+		"description":""
+	},
+	"gold":{
+		"message": "Gold",
+		"description":""
+	},
+	"Your_first_order":{
+		"message": "para sua primeira ordem",
+		"description":""
+	},
+	"Your_first_title":{
+		"message": "Obter 2X Cash Back & 300 ouro",
+		"description":""
+	},
+	"Your_first_subtitle":{
+		"message": "em sua primeira ordem Cash Back",
+		"description":""
+	},
+	"already_activated":{
+		"message": "Já ativado",
+		"description":""
+	},
+	"gold_progress":{
+		"message": "<i class=\"gold-num\">800</i>/1000 <b><img src=\"/img/help.png\" width=\"12\" height=\"12\"><span class =\"gold-tips\"> <i> * 1000 saldo sacável mínimo para sacar </i></span></b>",
+		"description":""
+	},
+	"gold_explanation":{
+		"message": "Obtenha outro  <i class=\"gold-balance\">200</i> Gold para resgatar &#36;10!",
+		"description":""
+	},
+	"gold_redeem":{
+		"message": "<i class=\"gold-redeem-num\">&#36;10</i> (<i class=\"gold-redeem-gold\">1000</i> gold) pode ser resgatado!",
+		"description":""
+	},
+	"tips_icon":{
+		"message": "DICA",
+		"description":""
+	},
+	"tips_detail_1":{
+		"message": "Não se esqueça de ativar o Cashback antes do checkout!",
+		"description":""
+	},
+	"tips_detail_2":{
+		"message": "Tente combinar Cashback e Cupons para obter o máximo de economia!",
+		"description":""
+	},
+	"tips_detail_3":{
+		"message": "Coupert Gold pode ser resgatado via PayPal. 100 Gold = &#36;1 USD.",
+		"description":""
+	},
+	"tips_detail_4":{
+		"message": "Preste atenção à Coupert, daremos ouro de vez em quando!",
+		"description":""
+	},
+	"tips_detail_5":{
+		"message": "Shop com Coupert, você pode economizar mais dinheiro e ganhar Cashback!",
+		"description":""
+	},
+	"search_cash_back":{
+		"message": " cashback",
+		"description":""
+	},
+	"search_shop":{
+		"message": "Loja",
+		"description":""
+	},
+	"first_order_process":{
+		"message": "<span>Colocar primeiro pedido </span><span>+ 300 Gold</span>",
+		"description":""
+	},
+	"go_check_in":{
+		"message": "IR",
+		"description":""
+	},
+	"your_progress":{
+		"message": "Seu progresso",
+		"description":""
+	},
+	"upper_code":{
+		"message": " CÓDIGO",
+		"description":""
+	},
+	"upper_codes":{
+		"message": " CÓDIGOS",
+		"description":""
+	},
+	"days": {
+		"message": "dias",
+		"description":""
+	},
+	"day": {
+		"message": "dia",
+		"description":""
+	},
+	"Ends_in":{
+		"message": "Termina em &nbsp;",
+		"description":""
+	},
+	"first_order_tips":{
+		"message": "Como nosso presente de boas-vindas,<br> receba DOUBLE Cash Back + Extra &#36; 3 (300 Gold) nas nossas mais de 4000 lojas em destaque. Ative-o agora!<div class=\"close-first-order-tips\"></div>",
+		"description":""
+	},
+	"black_friday_title":{
+		"message": "<span>Ganhe Black Friday</span> <span>5X de volta + &#36; 50</span>",
+		"description":""
+	},
+	"black_friday_play":{
+		"message": "TOQUE!",
+		"description":""
+	},
+	"black_friday_state1_h3":{
+		"message": "Parabéns!",
+		"description":""
+	},
+	"black_friday_state1_p":{
+		"message": "Você tem 1 chance grátis de ganhar o Black Friday Gold!",
+		"description":""
+	},
+	"black_friday_state1_div":{
+		"message": "Jogue agora!",
+		"description":""
+	},
+	"black_friday_state2_h3":{
+		"message": "<span>Você ganhou </span><span><b>100</b> Black Friday Gold (<b>&#36; 10</b>)</span>",
+		"description":""
+	},
+	"black_friday_state2_div":{
+		"message": "Play agora para obter mais!",
+		"description":""
+	},
+	"black_friday_state2_p":{
+		"message": "Você tem 1 chance",
+		"description":""
+	},
+	"black_friday_state3_h3":{
+		"message": "<span>Você ganhou </span><span><b>100</b> Black Friday Gold (<b>&#36; 10</b>)</span>",
+		"description":""
+	},
+	"black_friday_state3_p":{
+		"message": "Você tem 0 chance. Compre agora para obter mais chances!",
+		"description":""
+	},
+	"black_friday_state3_div":{
+		"message": "Veja detalhes",
+		"description":""
+	},
+	"daily_check_in_task":{
+		"message": "Checkin Diário",
+		"description":""
+	},
+	"watch_demo_task":{
+		"message": "Tentar a Demo",
+		"description":""
+	},
+	"join_coupert_task":{
+		"message": "Junte Coupert",
+		"description":""
+	},
+	"install_coupert_task":{
+		"message": "Instalar Coupert",
+		"description":""
+	},
+	"complete_profile_task":{
+		"message": "Perfil completo",
+		"description":""
+	},
+	"first_order_task": {
+		"message": "Colocar Primeiro Pedido",
+		"description":""
+	},
+	"invite_friends_task": {
+		"message": "Convide amigos",
+		"description":""
+	},
+	"invite_friends_gold":{
+		"message": "+ até 1.000.000 de ouro",
+		"description":""
+	},
+	"account_center" :{
+		"message": "Centro de Contas",
+		"description":""
+	},
+	"in_process_tasks":{
+		"message": "Em processo",
+		"description":""
+	},
+	"finished_tasks":{
+		"message": "Acabada",
+		"description":""
+	},
+	"today_deals_title":{
+		"message": "Hot Deals de hoje",
+		"description":""
+	},
+	"view_to_earn_gold":{
+		"message": "Ver Hot ofertas para ganhar Coupert ouro",
+		"description":""
+	},
+	"apply_now_btn":{
+		"message": "Aplique agora",
+		"description":""
+	},
+	"black_friday_tips":{
+		"message": "Spin para ganhar Black Friday ouro - até 5x Cash Back + &#36; 50!",
+		"description":""
+	},
+	"black_friday_go":{
+		"message": "VAI",
+		"description":""
+	},
+	"view_hot_deals_task":{
+		"message": "Ver Ofertas Quentes",
+		"description":""
+	},
+	"shop_btn_viewed":{
+		"message": "Visto",
+		"description":""
+	},
+	"at_pop_down_title":{
+		"message": "Encontramos <b id=\"codes-num\"></b> coupons!",
+		"description":""
+	},
+	"at_pop_down_subtitle":{
+		"message": "Coupert testa códigos em segundos.",
+		"description":""
+	},
+	"shop_btn_gold":{
+		"message": "Gold",
+		"description":""
+	},
+	"new":{
+		"message": "new",
+		"description":"novo"
+	},
+	"credit_card_title":{
+		"message": "Cartões de crédito Best Rewards",
+		"description":""
+	},
+	"credit_card_subtitle":{
+		"message": "Ganhe <b> 5% de volta em dinheiro </b> em locais diferentes a cada trimestre, como postos de gasolina, supermercados, restaurantes, <b> Amazon.com </b> e muito mais, até o máximo trimestral, sempre que você ativar.",
+		"description":""
+	},
+	"credit_card_smalltitle":{
+		"message": "*Além disso, ganhe dinheiro ilimitado de 1% em todas as outras compras - automaticamente.",
+		"description":""
+	},
+	"how_to_use":{
+		"message": "Como usar",
+		"description":""
+	},
+	"submit_feedback":{
+		"message": "Enviar Referência",
+		"description":""
+	},
+	"my_account":{
+		"message": "Minha conta",
+		"description":""
+	},
+	"trending_stores":{
+		"message": "Lojas de tendências",
+		"description":""
+	},
+	"open_cws":{
+		"message": "Abre o CWS em uma nova guia",
+		"description":""
+	},
+	"daily_check_in_tips":{
+		"message": "* 100 Ouro = &#36;1 USD",
+		"description":""
+	},
+	"codes_trending_stores": {
+		"message": "c&oacute;digos"
+	},
+	"code_trending_stores": {
+		"message": "c&oacute;digo"
+	},
+	"task_center":{
+		"message": "Centro de tarefas",
+		"description":""
+	},
+	"not_now_go_back":{
+		"message":"Agora não, volte para o checkout",
+		"description":""
+	},
+	"eran_up_gold":{
+		"message": "Você ganhará até <b>300</b> ouro",
+		"description":""
+	},
+	"gold_redeem_reach":{
+		"message": "Resgate <i class=\"gold-redeem-num\">&#36;10</i> assim que chegar a <i class=\"gold-redeem-gold\">1,000</i>!",
+		"description":""
+	},
+	"cart_total":{
+		"message": "Total do carrinho:",
+		"description":""
+	},
+	"with_coupert":{
+		"message": "Com Coupert",
+		"description":""
+	},
+	"share_with_friends":{
+		"message": "Convide amigos",
+		"description":""
+	},
+	"apply_coupons":{
+		"message": "Aplicar Cupons",
+		"description":""
+	},
+	"get_gold_days":{
+		"message": "Você fez check-in por <span>2</span> dia(s) consecutivos.",
+		"description":""
+	},
+	"get_gold_days_wrap":{
+		"message": "Você fez check-in<br> por <span>2</span> dia(s) consecutivos.",
+		"description":""
+	},
+	"invite_friend_link_copy":{
+		"message": "Copiar",
+		"description":""
+	},
+	"share_email_title":{
+		"message": "Você já ouviu falar de Coupert?",
+		"description":""
+	},
+	"share_email_desc":{
+		"message": "Apenas economizei dinheiro usando o aplicativo Coupert!%0d%0aEncontrei esta incrível nova extensão de navegador que você precisa conferir: você economizará tempo tentando automaticamente códigos de cupom em suas lojas on-line favoritas, além de receber dinheiro de volta de milhares de sites.%0d%0aBasta participar do Coupert gratuitamente. Você também receberá um bônus de boas-vindas de US %242 ao usar o meu link de convite para participar: https://www.coupert.com/ref/[[ref]]/ %0d%0aBoas compras!",
+		"description":""
+	},
+	"some_terms_apply":{
+		"message": "alguns termos se aplicam",
+		"description":""
+	},
+	"exclusions_title":{
+		"message": "Exclusões <b></b>",
+		"description":""
+	},
+	"exclusions_tips":{
+		"message": "Algumas exclusões podem ser aplicadas.",
+		"description":""
+	},
+	"checkin_notice":{
+		"message": "Não se esqueça<br> de check-in",
+		"description":""
+	},
+	"checkin_notice_welcome":{
+		"message": "Ganhe Coupert Gold<br> com check-in diário",
+		",description":""	
+	},
+	"checkin_remind":{
+		"message": "Lembre-me",
+		"description":""
+	},
+	"help_faq":{
+		"message": "Ajuda/FAQ",
+		"description":""
+	},
+	"confirmed_able":{
+		"message": "Retirável",
+		"description":""
+	},
+	"withdraw_tips":{
+		"message": "1.000 saldo sacável no mínimo para sacar",
+		"description":""
+	},
+	"tips_detail_6":{
+		"message": "<p>Ganhe mais Coupert Gold por <span> Check-in diário</span>! Faça o check-in consecutivo para reivindicar super recompensas Gold!</p>",
+		"description":""
+	},
+	"claim":{
+		"message": "Receber",
+		"description":""
+	},
+	"faq_redemption":{
+		"message": "FAQ sobre a redenção",
+		"description":""
+	},
+	"user_currrent_coupons_hidden":{
+		"message":"Seu saldo atual: &#36;*** USD",
+		"description":""
+	},
+	"complete_profile_task_description":{
+		"message": "Ganhe 500 Gold quando chegar o seu aniversário.",
+		"description":""
+	},
+	"daily_check_in_task_description":{
+		"message": "Check-in consecutivamente a recompensas de reivindicação.",
+		"description":""	
+	},
+	"watch_demo_task_description":{
+		"message": "Veja como Coupert economiza dinheiro para você.",
+		"description":""
+	},
+	"join_coupert_task_description":{
+		"message": "Crie uma conta para participar do Coupert.",
+		"description":""
+	},
+	"install_coupert_task_description":{
+		"message": "Bónus de boas-vindas de 100 Gold, obrigado por adicionar o Coupert ao Chrome.",
+		"description":""
+	},
+	"first_order_task_description":{
+		"message": "Ative Cash Back e faça seu primeiro pedido com Coupert.",
+		"description":""
+	},
+	"invite_friends_task_description":{
+		"message": "Convide seus amigos para instalar e participar do Coupert.",
+		"description":""
+	},
+	"view_hot_deals_task_description":{
+		"message": "Veja o que vale a pena comprar hoje.",
+		"description":""
+	},
+	"WELCOME_BONUS":{
+		"message": "Bônus de boas-vindas",
+		"description":""
+	},
+	"ADD_TO_CHROME":{
+		"message": "adicionar ao Chrome",
+		"description":""
+	},
+	"claimed":{
+		"message": "<i></i>Recebeu",
+		"description":""
+	},
+	"click_open_coupert":{
+		"message": "clique para abrir coupert",
+		"description":""
+	},
+	"cb_have_coupons":{
+		"message": "aplicar <span id=\"codes-num\">5</span> cupons no check-out",
+		"description":""
+	},
+	"no_code_desc_tips":{
+		"message": "Apesar disso, você ainda pode ganhar Coupert Gold concluindo tarefas Gold.",
+		"description":""
+	},
+	"have_you_checked_in":{
+		"message": "Você fez check-in hoje?",
+		"description":""
+	},
+	"click_claim_gold":{
+		"message": "Clique para reclamar o seu check-in diário ouro!",
+		"description":""
+	},
+	"click_claim_gold_wrap":{
+		"message": "Clique para reclamar o <br>seu check-in diário ouro!",
+		"description":""
+	},
+	"more_gold":{
+		"message": "Mais Gold",
+		"description":""
+	},
+	"found_codes":{
+		"message": "Encontrados <span id=\"codes-num\"></span> códigos",
+		"description":""
+	},
+	"get_cashback":{
+		"message": "Além de obter <span class=\"cashback-rate\">1 - 2%</span> Cash Back",
+		"description":""
+	},
+	"apply_all_saving":{
+		"message": "Aplique economia",
+		"description":""
+	},
+	"view_deal_gold": {
+		"message": "Você tem <span>3</span> de ouro",
+		"description":""
+	}
+}

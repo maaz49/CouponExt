@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charselt="utf-8">
+    <link rel="stylesheet" href="/css/datepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/at-test.css">
+</head>
+
+<body>
+    <div class="at-test-box">
+        <div class="at-test-container">
+            <!-- testing -->
+            <div class="at-testing">
+                <div class="imagecenter">
+                    <img class="test-logo" src="../img/logo.png" width="26" height="26">
+                </div>
+                    <h2 class="testing-title" i18n="at_testing_title">
+                            Coupert is automatically testing all available coupons for you.
+                    </h2>
+                    <p class="testing-code">
+                        <b i18n="at_testing_code">Testing code:</b>
+                        <span id="current-code"><span>
+                    </p>
+                    <div class="testing-process">
+                        <input type="hidden" name="leftnums" id="left-nums">
+                        <input type="hidden" name="totalnums" id="total-nums">
+                        <input type="hidden" name="intervalid" id="intervalid">
+                        <div class="testing-in-process"></div>
+                    </div>
+                    <div class="at-testing-try" style="display: none;">
+                        <span id="model-one">trying
+                            <span id="finished-nums-one"></span>of
+                            <span id="total-nums-one"></span></span>
+                        </span>
+                        <span id="model-two" style="display: none;">trying
+                            <span id="finished-nums-two"></span>of
+                            <span id="total-nums-two"></span>
+                        </span>
+                    </div>
+                  <div class="coupert-tips" style="display:none;">
+                        <div class="random-tips">
+                            <p class="tips-icon" i18n="tips_icon">TIPS</p>
+                            <div class="tips-detail">
+                                <ul>
+                                    <li i18n="tips_detail_6">Earn more Coupert Gold by <span>Daily Check-in</span>! Check-in consecutively to claim super Gold rewards!</li>
+                                    <li i18n="tips_detail_1">Coupert Gold includes two types, Order Gold and Task Gold. Get more gold to earn more Cash Back!</li>
+                                    <li i18n="tips_detail_2">Try combining Cash Back offers with promo codes for maximum savings!</li>
+                                    <li i18n="tips_detail_3" tip-type="first-order">You can get double Cash Back + extra 300 Gold as a welcome gift by shopping at our 4000+ featured stores!</li>
+                                    <li i18n="tips_detail_4">Pay attention to Coupert, we will give free Gold from time to time!</li>
+                                    <li i18n="tips_detail_5">Shop with coupert, you can save the most money & earn Cash Back!</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+            </div>
+            <button class="close-btn" id="at-testing-close"></button>
+        </div>
+    </div>
+    <script src="/js/lib/ga.js"></script>
+    <script src="/js/lib/jquery.min.js"></script>
+    <script src="/js/lib/md5.min.js"></script>
+    <script src="/js/lib/clipboard.min.js"></script>
+    <script src="/js/lib/jquery.toast.min.js"></script>
+    <script src="/js/lib/jquery.chrome.i18n.js"></script>
+    <script src="/js/lib/promise.js"></script>
+    <script src="/js/lib/js.local-session.js"></script>
+    <script src="/js/lib/js.cookie.js"></script>
+    <script src="/js/lib/js.storage.js"></script>
+    <script src="/js/ext/common.js"></script>
+    <script src="/js/ext/at-testing.js"></script>
+</body>
+
+</html>

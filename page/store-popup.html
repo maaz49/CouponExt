@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charselt="utf-8">
+        <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/css/store-popup.css">
+    </head>
+<body>
+    <!-- home -->
+    <div class="store-home-box">
+        <header id="logo-left">
+            <div class="header">
+                <div class="logo"><img src="../img/logo.png" width="22" height="22"></div>
+                <div class="nav menu">
+                    <b class="nav-line"></b>
+                </div>
+                <div class="nav-list-wrapper">
+                    <ul class="list-item">
+                        <li class="items help" i18n="help_faq">Help/FAQ</li>
+                        <li class="items guide" i18n="how_to_use">How To Use</li>
+                        <li class="items feedback" i18n="submit_feedback">Submit Feedback</li>
+                        <li class="items account" i18n="my_account">My Account</li>
+                    </ul>
+<!--                     <div class="share">
+                        <p i18n="share_with_friends">Share with your friends</p>
+                        <div class="share-icon">
+                            <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/facebook-message" href="https://www.facebook.com/dialog/send?app_id=1977396445822338&amp;link=coupert.com/share/facebook/b1ahcu/&amp;redirect_uri=https://www.coupert.com/share/facebook/b1ahcu/" target="_blank" class="messages">
+                                <svg class="icon" style="vertical-align: middle;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="640" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"><defs><style type="text/css"></style></defs><path d="M512 85.333333C277.333333 85.333333 85.333333 261.973333 85.333333 480 85.333333 602.88 145.92 712.533333 241.066667 785.066667L243.626667 938.666667 390.826667 858.453333 389.546667 858.026667C428.373333 868.693333 469.333333 874.666667 512 874.666667 746.666667 874.666667 938.666667 698.026667 938.666667 480 938.666667 261.973333 746.666667 85.333333 512 85.333333M555.946667 614.826667 449.706667 502.613333 234.666667 614.826667 464.213333 374.613333 574.293333 480 781.226667 374.613333 555.946667 614.826667Z" p-id="641" fill="#007EF2"></path></svg>
+                            </a>
+                            <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/facebook" href="https://www.facebook.com/dialog/share?app_id=1977396445822338&amp;display=popup&amp;href=https://www.coupert.com/share/facebook/b1ahcu/" target="_blank" class="facebook">
+                                <svg t="1576479617757" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="22px" height="22px"><path d="M0 0m73.142857 0l877.714286 0q73.142857 0 73.142857 73.142857l0 877.714286q0 73.142857-73.142857 73.142857l-877.714286 0q-73.142857 0-73.142857-73.142857l0-877.714286q0-73.142857 73.142857-73.142857Z" fill="#FFFFFF"></path><path d="M471.844571 1024V623.652571H329.142857v-156.013714h142.701714V352.365714C471.844571 219.062857 558.262857 146.285714 684.397714 146.285714c60.416 0 112.347429 4.169143 127.488 6.070857v139.556572h-87.625143c-68.388571 0-81.700571 31.012571-81.700571 76.324571v99.510857h163.474286l-21.211429 156.416h-142.262857V1024h-170.715429z" fill="#4164AD"></path></svg>
+                            </a>
+                            <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/twitter" href="https://www.twitter.com/share?url=https://www.coupert.com/share/twitter/b1ahcu/&amp;text=Never overpay with Coupert. Coupert offers coupons and up to 40 percentage cash back." target="_blank" class="twitter">
+                                <svg class="icon" style="vertical-align: middle" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px"> <defs><style type="text/css"></style></defs><path d="M768.896 377.856c-18.88 8.384-39.168 14.016-60.416 16.576 21.76-12.992 38.4-33.664 46.272-58.24-20.352 12.032-42.816 20.8-66.816 25.472-19.136-20.416-46.528-33.216-76.8-33.216-58.048 0-105.216 47.168-105.216 105.216 0 8.256 0.896 16.256 2.688 23.936C421.12 453.312 343.616 411.456 291.712 347.712 282.624 363.328 277.44 381.44 277.44 400.704c0 36.48 18.56 68.672 46.848 87.552C307.008 487.744 290.816 483.008 276.608 475.136l0 1.28c0 51.008 36.288 93.568 84.416 103.168C352.192 582.08 342.912 583.296 333.312 583.296c-6.784 0-13.376-0.64-19.776-1.856 13.376 41.792 52.224 72.256 98.304 73.024-36.032 28.224-81.408 45.056-130.688 45.056-8.512 0-16.896-0.448-25.088-1.408 46.592 29.824 101.888 47.296 161.28 47.296 193.6 0 299.392-160.32 299.392-299.456 0-4.544-0.064-9.088-0.256-13.632C736.96 417.472 754.816 398.976 768.896 377.856" fill="#55ACEE"></path></svg>
+                            </a>
+                            <a class="share-email" ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/email" href="mailto:?subject=Have you heard of Coupert?&body=Just saved some cash using the Coupert app!%0d%0aI found this amazing new browser extension you need to check out: It will save you time money by automatically trying coupon codes on your favorite online stores, plus you get cash back from thousands of websites.%0d%0aJust join Coupert for free. You'll also get a $2 Welcome Bonus when you use my invite link to join: https://www.coupert.com/extension Happy shopping!">
+                                <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3157" width="22" height="22"><path d="M7.1 227C2.8 239.4 0 252.6 0 266.4v478.4l347.4-301L7.1 227zM1020.7 239.2L694.6 437.3 1024 722.8V266.4c0-9.4-1.3-18.4-3.3-27.2zM991.7 184.4c-22.3-24.3-54-39.8-89.5-39.8H121.9c-30.9 0-58.9 11.9-80.4 30.9l470.9 300 479.3-291.1z" fill="#09BB07" p-id="3158" data-spm-anchor-id="a313x.7781069.0.i3" class="selected"></path><path d="M528.1 538.5c-0.2 0.2-0.5 0.2-0.7 0.3-1.6 0.9-3.3 1.5-5 2.2-0.8 0.3-1.6 0.8-2.5 1-2.4 0.6-4.7 0.9-7.2 1-0.2 0-0.4 0.1-0.7 0.1-0.2 0-0.3-0.1-0.6-0.1-2.5-0.1-5-0.4-7.5-1.1-0.9-0.2-1.7-0.7-2.5-1-1.8-0.7-3.6-1.4-5.3-2.4-0.2-0.2-0.5-0.2-0.8-0.4l-93.4-59.5L20.3 809.3c-1.9 1.7-4.2 2.7-6.4 3.7 20.2 39.3 60.7 66.4 107.9 66.4h780.3c52.9 0 97.6-34 114.4-81.2L639 471.1l-110.9 67.4z" fill="#09BB07" p-id="3159" data-spm-anchor-id="a313x.7781069.0.i4" class="selected"></path></svg>
+                            </a>
+                        </div>  
+                    </div> -->
+                </div>
+                <p class="store-home-domain"></p>
+                <i class="fa fa-search search-icon"></i>
+                <div class="close"></div>
+            </div>
+        </header>
+        <header id="logo-center" style="display: none;">
+            <div class="header">
+                <div class="logo"><img src="../img/logo.png" width="22" height="22"></div>
+                <div class="nav meu">
+                    <b class="nav-line"></b>
+                </div>
+                <div class="nav-list-wrapper">
+                    <ul class="list-item">
+                        <li class="items help" i18n="help_faq">Help/FAQ</li>
+                        <li class="items guide" i18n="how_to_use">How To Use</li>
+                        <li class="items feedback" i18n="submit_feedback">Submit Feedback</li>
+                        <li class="items account" i18n="my_account">My Account</li>
+                    </ul>
+                    <!-- <div class="share">
+                        <p i18n="share_with_friends">Share with your friends</p>
+                        <div class="share-icon">
+                            <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/facebook-message" href="https://www.facebook.com/dialog/send?app_id=1977396445822338&amp;link=coupert.com/share/facebook/b1ahcu/&amp;redirect_uri=https://www.coupert.com/share/facebook/b1ahcu/" target="_blank" class="messages">
+                                <svg class="icon" style="vertical-align: middle;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="640" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"><defs><style type="text/css"></style></defs><path d="M512 85.333333C277.333333 85.333333 85.333333 261.973333 85.333333 480 85.333333 602.88 145.92 712.533333 241.066667 785.066667L243.626667 938.666667 390.826667 858.453333 389.546667 858.026667C428.373333 868.693333 469.333333 874.666667 512 874.666667 746.666667 874.666667 938.666667 698.026667 938.666667 480 938.666667 261.973333 746.666667 85.333333 512 85.333333M555.946667 614.826667 449.706667 502.613333 234.666667 614.826667 464.213333 374.613333 574.293333 480 781.226667 374.613333 555.946667 614.826667Z" p-id="641" fill="#007EF2"></path></svg>
+                            </a>
+                            <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/facebook" href="https://www.facebook.com/dialog/share?app_id=1977396445822338&amp;display=popup&amp;href=https://www.coupert.com/share/facebook/b1ahcu/" target="_blank" class="facebook">
+                                <svg t="1576479617757" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="22px" height="22px"><path d="M0 0m73.142857 0l877.714286 0q73.142857 0 73.142857 73.142857l0 877.714286q0 73.142857-73.142857 73.142857l-877.714286 0q-73.142857 0-73.142857-73.142857l0-877.714286q0-73.142857 73.142857-73.142857Z" fill="#FFFFFF"></path><path d="M471.844571 1024V623.652571H329.142857v-156.013714h142.701714V352.365714C471.844571 219.062857 558.262857 146.285714 684.397714 146.285714c60.416 0 112.347429 4.169143 127.488 6.070857v139.556572h-87.625143c-68.388571 0-81.700571 31.012571-81.700571 76.324571v99.510857h163.474286l-21.211429 156.416h-142.262857V1024h-170.715429z" fill="#4164AD"></path></svg>
+                            </a>
+                            <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/twitter" href="https://www.twitter.com/share?url=https://www.coupert.com/share/twitter/b1ahcu/&amp;text=Never overpay with Coupert. Coupert offers coupons and up to 40 percentage cash back." target="_blank" class="twitter">
+                                <svg class="icon" style="vertical-align: middle" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px"> <defs><style type="text/css"></style></defs><path d="M768.896 377.856c-18.88 8.384-39.168 14.016-60.416 16.576 21.76-12.992 38.4-33.664 46.272-58.24-20.352 12.032-42.816 20.8-66.816 25.472-19.136-20.416-46.528-33.216-76.8-33.216-58.048 0-105.216 47.168-105.216 105.216 0 8.256 0.896 16.256 2.688 23.936C421.12 453.312 343.616 411.456 291.712 347.712 282.624 363.328 277.44 381.44 277.44 400.704c0 36.48 18.56 68.672 46.848 87.552C307.008 487.744 290.816 483.008 276.608 475.136l0 1.28c0 51.008 36.288 93.568 84.416 103.168C352.192 582.08 342.912 583.296 333.312 583.296c-6.784 0-13.376-0.64-19.776-1.856 13.376 41.792 52.224 72.256 98.304 73.024-36.032 28.224-81.408 45.056-130.688 45.056-8.512 0-16.896-0.448-25.088-1.408 46.592 29.824 101.888 47.296 161.28 47.296 193.6 0 299.392-160.32 299.392-299.456 0-4.544-0.064-9.088-0.256-13.632C736.96 417.472 754.816 398.976 768.896 377.856" fill="#55ACEE"></path></svg>
+                            </a>
+                            <a class="share-email" ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/email" href="mailto:?subject=Have you heard of Coupert?&body=Just saved some cash using the Coupert app!%0d%0aI found this amazing new browser extension you need to check out: It will save you time money by automatically trying coupon codes on your favorite online stores, plus you get cash back from thousands of websites.%0d%0aJust join Coupert for free. You'll also get a $2 Welcome Bonus when you use my invite link to join: https://www.coupert.com/extension Happy shopping!">
+                                <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3157" width="22" height="22"><path d="M7.1 227C2.8 239.4 0 252.6 0 266.4v478.4l347.4-301L7.1 227zM1020.7 239.2L694.6 437.3 1024 722.8V266.4c0-9.4-1.3-18.4-3.3-27.2zM991.7 184.4c-22.3-24.3-54-39.8-89.5-39.8H121.9c-30.9 0-58.9 11.9-80.4 30.9l470.9 300 479.3-291.1z" fill="#09BB07" p-id="3158" data-spm-anchor-id="a313x.7781069.0.i3" class="selected"></path><path d="M528.1 538.5c-0.2 0.2-0.5 0.2-0.7 0.3-1.6 0.9-3.3 1.5-5 2.2-0.8 0.3-1.6 0.8-2.5 1-2.4 0.6-4.7 0.9-7.2 1-0.2 0-0.4 0.1-0.7 0.1-0.2 0-0.3-0.1-0.6-0.1-2.5-0.1-5-0.4-7.5-1.1-0.9-0.2-1.7-0.7-2.5-1-1.8-0.7-3.6-1.4-5.3-2.4-0.2-0.2-0.5-0.2-0.8-0.4l-93.4-59.5L20.3 809.3c-1.9 1.7-4.2 2.7-6.4 3.7 20.2 39.3 60.7 66.4 107.9 66.4h780.3c52.9 0 97.6-34 114.4-81.2L639 471.1l-110.9 67.4z" fill="#09BB07" p-id="3159" data-spm-anchor-id="a313x.7781069.0.i4" class="selected"></path></svg>
+                            </a>
+                        </div>   
+                    </div> -->
+                </div>
+                 <i class="fa fa-search search-icon"></i>
+                <div class="close"></div>
+            </div>
+        </header>
+        <div class="container">
+            <!-- first order -->
+            <!-- <div class="first-order" style="display: none;">
+                <p class="count-down"><i></i><span i18n="Ends_in">Ends in &nbsp;</span> <b>72 : 00 : 00</b></p>
+                <div class="first-order-detail">
+                    <h3><b class="leaf-icon"></b><span i18n="Your_first_title">Get 2X Cash Back & 300 Gold</span><b class="leaf-icon right"></b></h3>
+                    <p><b class="add-icon"></b><span i18n="Your_first_subtitle">on your frist order</span><b class="add-icon right"></b></p>
+                    <div class="first-order-active" i18n="error_cashback_activate">Activate</div>
+                    <div class="first-order-actived" style="display: none;" i18n="error_cashback_activated">Activated</div>
+                </div>              
+            </div> -->
+            <!-- new user wraper -->
+            <div class="new-user-wraper" style="display: none">
+                <div class="welcome-to-coupert">
+                    <img src="../img/welcome.gif">
+                    <div class="welcome-new-user">
+                        <p i18n="welcome_new_user">Welcome to coupert</p>
+                        <p i18n="click_open_coupert">click to open coupert</p>
+                    </div>
+                </div>
+                <p class="new-user-wraper-tit" i18n="new_user_wraper_tit">Automatic Savings is now Ready.</p>
+                <p class="user-wraper-desc" i18n="new_user_wraper_first">When you're on a supported retail site, the icon "c" in the toolbar will become red. <span class="read-more">read more</span></p>
+                <p class="new-user-wraper-desc hidden" i18n="new_user_wraper_sec">Coupert will pop up, automatically test and apply the best working coupon to your cart at Checkout, or you can also copy and apply the available codes by yourself.</p>
+               <!--  <div class="how-it-works-cashback hidden">
+                    <div class="new-user-wraper-desc hidden" i18n="new_user_wraper_third">What's more, you can earn 1 - 40% <span class="new-user-cashback">cash back<span class="how-it-works-hover-newuser" style="display:none" data-utm_content="welcome_user"><span class="noclick">Cashback is different from coupons. Get rewarded for stuff that you're already buying with Coupert Gold! Merchants give us a small commission for bringing them business, and we directly share it with you through our free Coupert Gold rewards program. You can redeem via PayPal easily.</span><br><span class="canclick">Learn more</span></span></span> Just click the Activate button to get EXTRA Savings.<span class="read-less">read less</span></div>
+                </div> -->
+                <div class="close-new-user-wrapper"></div>
+            </div>
+            <div class="store-codes-enable" style="display: none;">
+                <p i18n="store_codes_enable">Enable auto-test pop up</p>
+            </div>
+            <div class="store-codes-enabled" style="display: none;">
+                <p i18n="store_codes_enabled">Auto-test pop up enabled</p>
+            </div>
+            <!-- reward  active-->
+           <!--  <div class="reward-activated-box" style="display: none;">
+                <h2 id="reward-activated-rate" i18n="reward_activated_rate"><span class="cashback-rate">1 - 6%</span> Cash Back Activated <b><span class="how-it-works-hover"><span class="noclick">Cashback is different from coupons. Get rewarded for stuff that you're already buying with Coupert Gold! Merchants give us a small commission for bringing them business, and we directly share it with you through our free Coupert Gold rewards program. You can redeem via PayPal easily.</span><br><span class="canclick">Learn more</span></span></b></h2>
+                <p class="reward-activated-desc" i18n="reward_activated_desc">Complete your shopping, and earn your cash back.</p>
+                <div class="exclusions-tips">
+                    <div i18n="exclusions_title">Exclusions <b></b></div>
+                    <p i18n="exclusions_tips">Some exclusions may apply.</p>
+                </div>
+            </div> -->
+            <!--  coupons-found -->
+            <div class="coupons-found-with-cashback" style="display: none;">
+                <h2 i18n="coupons_found_title">COUPONS FOUND</h2>
+                <div class="coupon-codes">
+                    <p class="coupon">
+                        <span i18n="store_coupon_codes">Coupon Codes</span>
+                        <span class="text-bold cashback-codes"></span>
+                    </p>
+                    <!-- <p class="coupon" id="coupon-cashback" style="display: none;">
+                        <span i18n="store_rewards_rate">Today's Cash Back Rate</span>
+                        <span class="text-bold" i18n="store_cashback_rate">
+                            <span class="cashback-rate">1 - 2%</span>
+                        </span>
+                    </p> -->
+                </div>
+                <button class="btn code-btn test-codes" i18n="store_test_codes">Test&nbsp;&nbsp;Codes</button>
+            </div>
+            <div class="coupons-found" style="display: none;">
+                <h2 i18n="coupons_found_title">COUPONS FOUND</h2>
+                <div class="coupon-codes">
+                    <p class="coupon">
+                        <span i18n="store_coupon_codes">Coupon Codes</span>
+                        <span class="text-bold cashback-codes"></span>
+                    </p>
+                </div>
+                <button class="btn code-btn test-codes" i18n="store_test_codes">Test&nbsp;&nbsp;Codes</button>
+            </div>
+
+            <!-- earn-up-cashback -->
+           <!--  <div class="earn-up-cashback" style="display: none;">
+                <h2 i18n="earn_up_cashback">Activate <span class="cashback-rate">1 - 6%</span> Cash Back <b><span class="how-it-works-hover"><span class="noclick">Cashback is different from coupons. Get rewarded for stuff that you're already buying with Coupert Gold! Merchants give us a small commission for bringing them business, and we directly share it with you through our free Coupert Gold rewards program. You can redeem via PayPal easily.</span><br><span class="canclick">Learn more</span></span></b></h2>
+                <button class="btn code-btn activate-btn" id="store-rewards-active" i18n="store_rewards_active">Activate</button>
+            </div> -->
+            <!-- top daily check in -->
+           <!--  <div class="top-check-in-container" id="top-check-in">
+                <div class="checkin-detail-container">
+                    <div class="checkin-detail-box">
+                        <img src="../img/check-in.gif">
+                        <h3 i18n="daily_check_in_task">Daily Check-in</h3>
+                        <div class="date-list-box" data-path="icon-click/home/daily-check-in">
+                            <div class="date-list-wraper">
+                                <ul class="date-list">
+                                    <li class="date-detail click-active">
+                                        <div class="date-img">10</div>
+                                        <div class="date-desc">Today</div>
+                                    </li>
+                                    <li class="date-detail">
+                                        <div class="date-img">30</div>
+                                        <div class="date-desc">Day2</div>
+                                    </li>
+                                    <li class="date-detail">
+                                        <div class="date-img">15</div>
+                                        <div class="date-desc">Day3</div>
+                                    </li>
+                                    <li class="date-detail">
+                                        <div class="date-img">20</div>
+                                        <div class="date-desc">Day4</div>
+                                    </li>
+                                    <li class="date-detail">
+                                        <div class="date-img">25</div>
+                                        <div class="date-desc">Day5</div>
+                                    </li>
+                                    <li class="date-detail">
+                                        <div class="date-img">30</div>
+                                        <div class="date-desc">Day6</div>
+                                    </li>
+                                    <li class="date-detail">
+                                        <div class="date-img">35</div>
+                                        <div class="date-desc">Day7</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- top daily check in after -->
+            <!-- <div class="top-check-in-after-container">
+                <img src="../img/checked-in-gold.png">
+                <div class="check-in-gold">
+                    <p><b i18n="get_gold_num_before">You earned </b><span class="today-checked-in-gold">10</span> <b i18n="get_gold_num_after">Gold today</b></p>
+                    <div class="check-in-days">
+                        <p i18n="get_gold_days_wrap">You've checked in for <span>2</span> consecutive day(s).</p>
+                        <button type="button" i18n="more_gold">More Gold</button>
+                    </div>
+                </div>
+                <div class="close-wrapper"></div>
+            </div> -->
+             <ul class="nav nav-tabs nav-justified myTab">
+                    <li><a data-toggle="tab" class="active" href=".all">All</a></li>
+                    <li><a data-toggle="tab" href=".codes">Codes</a></li>
+                    <li><a data-toggle="tab" href=".deals">Deals</a></li>
+                </ul>
+                 <div class="tab-content">
+                            <div  class="tab-pane fade active show all">
+                              <div id="all-cards">
+                                  <ul class="store-coupon-list"></ul>
+                                  <ul class="deals-list"></ul>
+                              </div>
+                            </div>
+                                <div class="tab-pane fade codes">
+                                    <div id="code-cards"> <ul class="store-coupon-list"></ul></div>
+                            </div>
+
+                            <div class="tab-pane fade deals">
+                              <div id="deal-cards">
+                                   <ul class="deals-list"></ul>
+                              </div>
+                            </div>
+                        </div>
+            <div class="store-no-code" style="display: none;">
+                <!-- no code -->
+                <div class="no-code-tips" style="display: none;">
+                    <p>
+                        <span i18n="no_code_tips_title">no code available at this time.</span>
+                        <span i18n="no_code_tips_subtitle" id="no_code_site"><b>Groupon</b> normally has coupons to try at checkout,  but doesn't have any working codes today.</span>
+                    </p>
+                </div>
+                <!-- not support -->
+                <div class="no-support-tips" style="display: none;">
+                    <!-- <p>
+                        <span i18n="no_support_title">We don't support this site yet</span>
+                        <span i18n="no_support_subtitle">If it is indeed a retail website and you need it, please let us know. <b class="need-it">Submit the site</b></span>
+                    </p> -->
+                    <!-- <div class="click-after login gold" i18n="click_after_login" style="display: none;">Submitted！ <i></i></div>
+                    <div class="click-after login no-gold" i18n="click_after_login_no_gold" style="display: none;">Report Successfully!</div> -->
+                    <!-- <div class="click-after repeat-submit" i18n="click_after_repeat_submit" style="display: none;">You've reported this site.</div> -->
+                </div>
+                <!-- <p class="description-tips" i18n="no_code_desc_tips">Despite this, you can still earn Coupert Gold by completing Gold tasks.</p> -->
+                <!--<div class="checkin-container" id="nocode_check-in" style="margin-top: 10px;">-->
+                  <!--   <div class="dailycheck-wraper">
+                        <div class="checkin-remind">
+                            <p i18n="checkin_remind">Remind me</p>
+                            <div class="remind-turn"></div>
+                        </div>
+                        <div class="dailycheck-wraper-left">
+                            <p i18n="daily_check_in">Daily Check-in<b><span>Check-in every day to earn more Coupert Gold! You need to check-in consecutively to claim the next reward. If you don’t check-in consecutively, the count will reset and start over again.</span></b></p>
+                        </div>
+                    </div> -->
+                    <!-- checkin-detail -->
+                  <!--   <div class="checkin-detail-container">
+                        <div class="checkin-detail-box">
+                            <div class="date-list-box">
+                                <div class="date-list-wraper">
+                                    <ul class="date-list">
+                                        <li class="date-detail click-active">
+                                            <div class="date-img">10</div>
+                                            <div class="date-desc">Today</div>
+                                        </li>
+                                        <li class="date-detail">
+                                            <div class="date-img">30</div>
+                                            <div class="date-desc">Day2</div>
+                                        </li>
+                                        <li class="date-detail">
+                                            <div class="date-img">15</div>
+                                            <div class="date-desc">Day3</div>
+                                        </li>
+                                        <li class="date-detail">
+                                            <div class="date-img">20</div>
+                                            <div class="date-desc">Day4</div>
+                                        </li>
+                                        <li class="date-detail">
+                                            <div class="date-img">25</div>
+                                            <div class="date-desc">Day5</div>
+                                        </li>
+                                        <li class="date-detail">
+                                            <div class="date-img">30</div>
+                                            <div class="date-desc">Day6</div>
+                                        </li>
+                                        <li class="date-detail">
+                                            <div class="date-img">35</div>
+                                            <div class="date-desc">Day7</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- congratulations-wrap -->
+                    <!-- <div class="congratulations-wrap" style="display: none"> -->
+                    <!--     <div class="modal-close-btn"></div> -->
+                       <!--  <div class="gold-gift">
+                            <img src="../img/goldgift.png">
+                        </div> -->
+                      <!--   <div class="congratulations-txt" i18n="congratulations">Congratulations</div>
+                        <div class="get-gold-num" ><b i18n="get_gold_num_before">You earned </b><span class="today-checked-in-gold">10</span> <b i18n="get_gold_num_after">Gold today</b></div>
+                        <div class="get-gold-days" i18n="get_gold_days">You've checked in for <span>2</span> consecutive days.
+                        </div>
+                    </div>
+                </div>
+                <div class="account-tasklists" id="nocode_task-lists">
+                    <div class="tasklists-process">
+                        <h3 i18n="earn_more_gold">Earn More Gold</h3>
+                        <span i18n="daily_check_in_tips">* 100 Gold = $1 USD</span>
+                    </div>
+                    <div class="tasks-category">
+                        <p class="in-process-part active" i18n="in_process_tasks">In process</p>
+                        <p class="finished-part" i18n="finished_tasks">Finished</p>
+                    </div> -->
+                   <!--  <ul class="tasklists in-process">
+                        <li class="view-deals">
+                            <p>
+                                <b>View hot deals</b>
+                                <i>See what is worth to buy today.</i>
+                            </p>
+                            <p>+ 5~30 <b i18n="gold">Gold</b></p>
+                        </li>
+                        <li class="first-order-progress" i18n="first_order_process">
+                            <p>
+                                <b>Complete First Order</b>
+                                <i>Activate Cash Back and place your first order with Coupert.</i>
+                            </p>
+                            <p>+ 300 Gold</p>
+                        </li>
+                        <li class="daily-check-in" i18n="daily_check_in_process">
+                            <p>
+                                <b>Daily Check-in</b>
+                                <i>Check in consecutively to claim further rewards.</i>
+                            </p>
+                            <p>+ 5~500 gold</p>
+                        </li>
+                        <li class="invite-friends" i18n="invite_friends_process">
+                            <p>
+                                <b>Invite Friends</b>
+                                <i>Invite your friends to install and join Coupert!</i>
+                            </p>
+                            <p>+ up to 1000,000 Gold</p>
+                        </li>
+                        <li class="try-demo">
+                            <p i18n="try_demo">
+                                <b>Try Demo</b>
+                                <i>See how Coupert saves money for you.</i>
+                            </p>
+                            <p>+ 50 <b i18n="gold">Gold</b></p>
+                        </li>
+                    </ul> -->
+                    <!-- <ul class="tasklists finished" style="display: none;">
+                        <li class="install-coupert complete">
+                            <p i18n="install_coupert">
+                                <b>Install Coupert</b>
+                                <i>100 Gold welcome bonus to thank you for adding Coupert to Chrome! </i>
+                            </p>
+                            <p>+ 150 <b i18n="gold">p</b></span>
+                        </li>
+                        <li class="join-coupert complete">
+                            <p i18n="join_coupert">
+                                <b>Join Coupert</b>
+                                <i> Create an account to join Coupert.</i>
+                            </p>
+                            <p>+ 150 <b i18n="gold">Gold</b></p>
+                        </li>
+                        <li class="complete-profile">
+                            <p i18n="complete_profile">
+                                <b>Complete Profile</b> 
+                                <i>Add name, gender and birthdate to get 500 Gold birthday rewards.</i>
+                            </p>
+                            <p>+ 50 <b i18n="gold">Gold</b></p>
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+            <!-- coupert -->
+            <div class="coupert-box" style="display: none;">
+                <div class="coupert-container">
+                    <!-- new user wraper -->
+                    <div class="new-user-wraper">
+                        <div class="welcome-to-coupert">
+                            <img src="../img/welcome.gif">
+                            <div class="welcome-new-user">
+                                <p i18n="welcome_new_user">Welcome to coupert</p>
+                                <p i18n="click_open_coupert">click to open coupert</p>
+                            </div>
+                        </div>
+                        <p class="new-user-wraper-tit" i18n="new_user_wraper_tit">Automatic Savings is now Ready.</p>
+                        <p class="user-wraper-desc" i18n="new_user_wraper_first">When you're on a supported retail site, the icon "c" in the toolbar will become red. <span class="read-more">read more</span></p>
+                        <p class="new-user-wraper-desc hidden" i18n="new_user_wraper_sec">Coupert will pop up, automatically test and apply the best working coupon to your cart at Checkout, or you can also copy and apply the available codes by yourself.</p>
+                       <!--  <div class="how-it-works-cashback hidden">
+                            <div class="new-user-wraper-desc hidden" i18n="new_user_wraper_third">What's more, you can earn 1 - 40% <span class="new-user-cashback">cash back<span class="how-it-works-hover-newuser" style="display:none" data-utm_content="welcome_user"><span class="noclick">Cashback is different from coupons. Get rewarded for stuff that you're already buying with Coupert Gold! Merchants give us a small commission for bringing them business, and we directly share it with you through our free Coupert Gold rewards program. You can redeem via PayPal easily.</span><br><span class="canclick">Learn more</span></span></span> Just click the Activate button to get EXTRA Savings.<span class="read-less">read less</span></div>
+                        </div>
+                    </div>
+                    <!-- old users earn more gold -->
+                    <!-- <div class="account-tasklists" id="welcome_task-lists" style="display: none;">
+                        <div class="tasklists-process">
+                            <h3 i18n="earn_more_gold">Earn More Gold</h3>
+                        </div>
+                        <div class="tasks-category">
+                            <p class="in-process-part active" i18n="in_process_tasks">In process</p>
+                            <p class="finished-part" i18n="finished_tasks">Finished</p>
+                        </div>
+                        <ul class="tasklists in-process">
+                            <li class="view-deals">
+                                <p>
+                                    <b>View hot deals</b>
+                                    <i>See what is worth to buy today.</i>
+                                </p>
+                                <p>+ 5~30 <b i18n="gold">Gold</b></p>
+                            </li>
+                            <li class="first-order-progress" i18n="first_order_process">
+                                <p>
+                                    <b>Complete First Order</b>
+                                    <i>Activate Cash Back and place your first order with Coupert.</i>
+                                </p>
+                                <p>+ 300 Gold</p>
+                            </li>
+                            <li class="daily-check-in" i18n="daily_check_in_process">
+                                <p>
+                                    <b>Daily Check-in</b>
+                                    <i>Check in consecutively to claim further rewards.</i>
+                                </p>
+                                <p>+ 5~500 gold</p>
+                            </li>
+                            <li class="invite-friends" i18n="invite_friends_process">
+                                <p>
+                                    <b>Invite Friends</b>
+                                    <i>Invite your friends to install and join Coupert!</i>
+                                </p>
+                                <p>+ up to 1000,000 Gold</p>
+                            </li>
+                            <li class="try-demo">
+                                <p i18n="try_demo">
+                                    <b>Try Demo</b>
+                                    <i>See how Coupert saves money for you.</i>
+                                </p>
+                                <p>+ 50 <b i18n="gold">Gold</b></p>
+                            </li>
+                        </ul>
+                        <ul class="tasklists finished" style="display: none;">
+                            <li class="install-coupert complete">
+                                <p i18n="install_coupert">
+                                    <b>Install Coupert</b>
+                                    <i>100 Gold welcome bonus to thank you for adding Coupert to Chrome! </i>
+                                </p>
+                                <p>+ 150 <b i18n="gold">p</b></span>
+                            </li>
+                            <li class="join-coupert complete">
+                                <p i18n="join_coupert">
+                                    <b>Join Coupert</b>
+                                    <i> Create an account to join Coupert.</i>
+                                </p>
+                                <p>+ 150 <b i18n="gold">Gold</b></p>
+                            </li>
+                            <li class="complete-profile">
+                                <p i18n="complete_profile">
+                                    <b>Complete Profile</b> 
+                                    <i>Add name, gender and birthdate to get 500 Gold birthday rewards.</i>
+                                </p>
+                                <p>+ 50 <b i18n="gold">Gold</b></p>
+                            </li>
+                        </ul> -->
+                    </div>
+                    <!-- new uers earn more gold-->
+                    <!-- <div class="newcomer-benefits">
+                        <h3 i18n="WELCOME_BONUS">Welcome Bonus</h3>
+                        <div class="install-coupert-wrapper">
+                            <img src="../img/install-coupert-picture.png">
+                            <p>
+                                <b>100 Gold</b>
+                                <span i18n="ADD_TO_CHROME">add to chrome</span>
+                            </p>
+                            <button type="button" class="install-coupert-claim" i18n="claim">Claim</button>
+                            <div class="claimed install-coupert-claimed" i18n="claimed"><i></i>Claimed</div>
+                        </div>
+                        <div class="join-coupert-wrapper">
+                            <img src="../img/join-coupert-picture.png">
+                            <p>
+                                <b>100 Gold</b>
+                                <span i18n="join_coupert">Join Coupert</span>
+                            </p>
+                            <button type="button" class="go-btn" i18n="go_check_in">Go</button>
+                            <button type="button" class="join-coupert-claim" i18n="claim">Claim</button>
+                            <div class="claimed join-coupert-claimed" i18n="claimed"><i></i>Claimed</div>
+                        </div>
+                        <div class="try-demo-wrapper">
+                            <img src="../img/try-demo-picture.png">
+                            <p>
+                                <b>50 Gold</b>
+                                <span i18n="try_demo">Try Demo</span>
+                            </p>
+                            <button type="button" class="go-btn" i18n="go_check_in">Go</button>
+                            <button type="button" class="try-demo-claim" i18n="claim">Claim</button>
+                            <div class="claimed try-demo-claimed" i18n="claimed"><i></i>Claimed</div>
+                        </div>
+                        <div class="eran-more-gold" i18n="earn_more_gold">Earn More Gold</div>
+                        <div class="gold-icon"></div>
+                    </div> -->
+                </div>
+            </div>
+        </div>   
+    </div>
+    <!-- checkin -->
+    <div class="check-in-box" style="display: none">
+        <header id="logo-left">
+            <div class="header">
+                <div class="logo"><img src="../img/logo.png" width="22" height="22"></div>
+                <div class="nav menu">
+                    <b class="nav-line"></b>
+                </div>
+                <div class="nav-list-wrapper">
+                    <ul class="list-item">
+                        <li class="items help" i18n="help_faq">Help/FAQ</li>
+                        <li class="items guide" i18n="how_to_use">How To Use</li>
+                        <li class="items feedback" i18n="submit_feedback">Submit Feedback</li>
+                        <li class="items account" i18n="my_account">My Account</li>
+                    </ul>
+                    <div class="share">
+                        <p i18n="share_with_friends">Share with your friends</p>
+                        <div class="share-icon">
+                            <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/facebook-message" href="https://www.facebook.com/dialog/send?app_id=1977396445822338&amp;link=coupert.com/share/facebook/b1ahcu/&amp;redirect_uri=https://www.coupert.com/share/facebook/b1ahcu/" target="_blank" class="messages">
+                                <svg class="icon" style="vertical-align: middle;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="640" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"><defs><style type="text/css"></style></defs><path d="M512 85.333333C277.333333 85.333333 85.333333 261.973333 85.333333 480 85.333333 602.88 145.92 712.533333 241.066667 785.066667L243.626667 938.666667 390.826667 858.453333 389.546667 858.026667C428.373333 868.693333 469.333333 874.666667 512 874.666667 746.666667 874.666667 938.666667 698.026667 938.666667 480 938.666667 261.973333 746.666667 85.333333 512 85.333333M555.946667 614.826667 449.706667 502.613333 234.666667 614.826667 464.213333 374.613333 574.293333 480 781.226667 374.613333 555.946667 614.826667Z" p-id="641" fill="#007EF2"></path></svg>
+                            </a>
+                            <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/facebook" href="https://www.facebook.com/dialog/share?app_id=1977396445822338&amp;display=popup&amp;href=https://www.coupert.com/share/facebook/b1ahcu/" target="_blank" class="facebook">
+                                <svg t="1576479617757" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="22px" height="22px"><path d="M0 0m73.142857 0l877.714286 0q73.142857 0 73.142857 73.142857l0 877.714286q0 73.142857-73.142857 73.142857l-877.714286 0q-73.142857 0-73.142857-73.142857l0-877.714286q0-73.142857 73.142857-73.142857Z" fill="#FFFFFF"></path><path d="M471.844571 1024V623.652571H329.142857v-156.013714h142.701714V352.365714C471.844571 219.062857 558.262857 146.285714 684.397714 146.285714c60.416 0 112.347429 4.169143 127.488 6.070857v139.556572h-87.625143c-68.388571 0-81.700571 31.012571-81.700571 76.324571v99.510857h163.474286l-21.211429 156.416h-142.262857V1024h-170.715429z" fill="#4164AD"></path></svg>
+                            </a>
+                            <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/twitter" href="https://www.twitter.com/share?url=https://www.coupert.com/share/twitter/b1ahcu/&amp;text=Never overpay with Coupert. Coupert offers coupons and up to 40 percentage cash back." target="_blank" class="twitter">
+                                <svg class="icon" style="vertical-align: middle" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px"> <defs><style type="text/css"></style></defs><path d="M768.896 377.856c-18.88 8.384-39.168 14.016-60.416 16.576 21.76-12.992 38.4-33.664 46.272-58.24-20.352 12.032-42.816 20.8-66.816 25.472-19.136-20.416-46.528-33.216-76.8-33.216-58.048 0-105.216 47.168-105.216 105.216 0 8.256 0.896 16.256 2.688 23.936C421.12 453.312 343.616 411.456 291.712 347.712 282.624 363.328 277.44 381.44 277.44 400.704c0 36.48 18.56 68.672 46.848 87.552C307.008 487.744 290.816 483.008 276.608 475.136l0 1.28c0 51.008 36.288 93.568 84.416 103.168C352.192 582.08 342.912 583.296 333.312 583.296c-6.784 0-13.376-0.64-19.776-1.856 13.376 41.792 52.224 72.256 98.304 73.024-36.032 28.224-81.408 45.056-130.688 45.056-8.512 0-16.896-0.448-25.088-1.408 46.592 29.824 101.888 47.296 161.28 47.296 193.6 0 299.392-160.32 299.392-299.456 0-4.544-0.064-9.088-0.256-13.632C736.96 417.472 754.816 398.976 768.896 377.856" fill="#55ACEE"></path></svg>
+                            </a>
+                            <a class="share-email" ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/email" href="mailto:?subject=Have you heard of Coupert?&body=Just saved some cash using the Coupert app!%0d%0aI found this amazing new browser extension you need to check out: It will save you time money by automatically trying coupon codes on your favorite online stores, plus you get cash back from thousands of websites.%0d%0aJust join Coupert for free. You'll also get a $2 Welcome Bonus when you use my invite link to join: https://www.coupert.com/extension Happy shopping!">
+                                <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3157" width="22" height="22"><path d="M7.1 227C2.8 239.4 0 252.6 0 266.4v478.4l347.4-301L7.1 227zM1020.7 239.2L694.6 437.3 1024 722.8V266.4c0-9.4-1.3-18.4-3.3-27.2zM991.7 184.4c-22.3-24.3-54-39.8-89.5-39.8H121.9c-30.9 0-58.9 11.9-80.4 30.9l470.9 300 479.3-291.1z" fill="#09BB07" p-id="3158" data-spm-anchor-id="a313x.7781069.0.i3" class="selected"></path><path d="M528.1 538.5c-0.2 0.2-0.5 0.2-0.7 0.3-1.6 0.9-3.3 1.5-5 2.2-0.8 0.3-1.6 0.8-2.5 1-2.4 0.6-4.7 0.9-7.2 1-0.2 0-0.4 0.1-0.7 0.1-0.2 0-0.3-0.1-0.6-0.1-2.5-0.1-5-0.4-7.5-1.1-0.9-0.2-1.7-0.7-2.5-1-1.8-0.7-3.6-1.4-5.3-2.4-0.2-0.2-0.5-0.2-0.8-0.4l-93.4-59.5L20.3 809.3c-1.9 1.7-4.2 2.7-6.4 3.7 20.2 39.3 60.7 66.4 107.9 66.4h780.3c52.9 0 97.6-34 114.4-81.2L639 471.1l-110.9 67.4z" fill="#09BB07" p-id="3159" data-spm-anchor-id="a313x.7781069.0.i4" class="selected"></path></svg>
+                            </a>
+                        </div>   
+                    </div>
+                </div>
+                <p class="home-my-task" i18n="task_center">Task Center</p>
+                <div class="close"></div>
+            </div>
+        </header>
+        <!-- <div class="gold-banner" i18n="daily_check_in_tips">* 100 Gold = $1 USD</div> -->
+        <!-- <div class="container">
+            <div class="checkin-container" id="activity_check-in">
+                <div class="dailycheck-wraper">
+                    <div class="checkin-remind">
+                        <p i18n="checkin_remind">Remind me</p>
+                        <div class="remind-turn"></div>
+                    </div>
+                    <div class="dailycheck-wraper-left">
+                        <p i18n="daily_check_in">Daily Check-in <b><span>Check-in every day to earn more Coupert Gold! You need to check-in consecutively to claim the next reward. If you don't check-in consecutively, the count will reset and start over again.</span></b></p>
+                    </div>
+                </div>
+                <!-- checkin-detail -->
+               <!--  <div class="checkin-detail-container">
+                    <div class="checkin-detail-box">
+                        <div class="date-list-box">
+                            <div class="date-list-wraper">
+                                <ul class="date-list">
+                                    <li class="date-detail click-active">
+                                        <div class="date-img">10</div>
+                                        <div class="date-desc">Today</div>
+                                    </li>
+                                    <li class="date-detail">
+                                        <div class="date-img">30</div>
+                                        <div class="date-desc">Day2</div>
+                                    </li>
+                                    <li class="date-detail">
+                                        <div class="date-img">15</div>
+                                        <div class="date-desc">Day3</div>
+                                    </li>
+                                    <li class="date-detail">
+                                        <div class="date-img">20</div>
+                                        <div class="date-desc">Day4</div>
+                                    </li>
+                                    <li class="date-detail">
+                                        <div class="date-img">25</div>
+                                        <div class="date-desc">Day5</div>
+                                    </li>
+                                    <li class="date-detail">
+                                        <div class="date-img">30</div>
+                                        <div class="date-desc">Day6</div>
+                                    </li>
+                                    <li class="date-detail">
+                                        <div class="date-img">35</div>
+                                        <div class="date-desc">Day7</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- congratulations-wrap -->
+                <!-- <div class="congratulations-wrap" style="display: none">
+                    <div class="modal-close-btn"></div>
+                    <div class="gold-gift">
+                        <img src="../img/goldgift.png">
+                    </div>
+                    <div class="congratulations-txt" i18n="congratulations">Congratulations</div>
+                    <div class="get-gold-num"><b i18n="get_gold_num_before">You earned </b><span class="today-checked-in-gold">10</span> <b i18n="get_gold_num_after">Gold today</b></div>
+                    <div class="get-gold-days" i18n="get_gold_days">You've checked in for <span>2</span> consecutive days.</div>
+                </div>
+            </div>
+            <div class="account-tasklists" id="activity_task-lists">
+                <div class="tasklists-process">
+                    <h3 i18n="earn_more_gold">Earn More Gold</h3>
+                </div>
+                <div class="tasks-category">
+                    <p class="in-process-part active" i18n="in_process_tasks">In process</p>
+                    <p class="finished-part" i18n="finished_tasks">Finished</p>
+                </div>
+                <ul class="tasklists in-process">
+                    <li class="view-deals">
+                        <p>
+                            <b>View hot deals</b>
+                            <i>See what is worth to buy today.</i>
+                        </p>
+                        <p>+ 5~30 <b i18n="gold">Gold</b></p>
+                    </li>
+                    <li class="first-order-progress" i18n="first_order_process">
+                        <p>
+                            <b>Complete First Order</b>
+                            <i>Activate Cash Back and place your first order with Coupert.</i>
+                        </p>
+                        <p>+ 300 Gold</p>
+                    </li>
+                    <li class="daily-check-in" i18n="daily_check_in_process">
+                        <p>
+                            <b>Daily Check-in</b>
+                            <i>Check in consecutively to claim further rewards.</i>
+                        </p>
+                        <p>+ 5~500 gold</p>
+                    </li>
+                    <li class="invite-friends" i18n="invite_friends_process">
+                        <p>
+                            <b>Invite Friends</b>
+                            <i>Invite your friends to install and join Coupert!</i>
+                        </p>
+                        <p>+ up to 1000,000 Gold</p>
+                    </li>
+                    <li class="try-demo">
+                        <p i18n="try_demo">
+                            <b>Try Demo</b>
+                            <i>See how Coupert saves money for you.</i>
+                        </p>
+                        <p>+ 50 <b i18n="gold">Gold</b></p>
+                    </li>
+                </ul>
+                <ul class="tasklists finished" style="display: none;">
+                    <li class="install-coupert complete">
+                        <p i18n="install_coupert">
+                            <b>Install Coupert</b>
+                            <i>100 Gold welcome bonus to thank you for adding Coupert to Chrome! </i>
+                        </p>
+                        <p>+ 150 <b i18n="gold">p</b></span>
+                    </li>
+                    <li class="join-coupert complete">
+                        <p i18n="join_coupert">
+                            <b>Join Coupert</b>
+                            <i> Create an account to join Coupert.</i>
+                        </p>
+                        <p>+ 150 <b i18n="gold">Gold</b></p>
+                    </li>
+                    <li class="complete-profile">
+                        <p i18n="complete_profile">
+                            <b>Complete Profile</b> 
+                            <i>Add name, gender and birthdate to get 500 Gold birthday rewards.</i>
+                        </p>
+                        <p>+ 50 <b i18n="gold">Gold</b></p>
+                    </li>
+                </ul>
+            </div> -->
+       <!--  </div> -->
+    </div>
+    <!-- search -->
+    <div class="store-search-box " style="display: none;">
+        <div id="ad-panel" style="display: none;">
+
+            <header id="search-head">
+                <div class="header">
+                    <div class="logo"><img src="../img/logo.png" width="22" height="22"></div>
+                    <div class="nav menu">
+                        <b class="nav-line"></b>
+                    </div>
+                    <div class="nav-list-wrapper">
+                        <ul class="list-item">
+                            <li class="items help" i18n="help_faq">Help/FAQ</li>
+                            <li class="items guide" i18n="how_to_use">How To Use</li>
+                            <li class="items feedback" i18n="submit_feedback">Submit Feedback</li>
+                            <li class="items account" i18n="my_account">My Account</li>
+                        </ul>
+                        <!-- <div class="share">
+                            <p i18n="share_with_friends">Share with your friends</p>
+                            <div class="share-icon">
+                                <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/facebook-message" href="https://www.facebook.com/dialog/send?app_id=1977396445822338&amp;link=coupert.com/share/facebook/b1ahcu/&amp;redirect_uri=https://www.coupert.com/share/facebook/b1ahcu/" target="_blank" class="messages">
+                                    <svg class="icon" style="vertical-align: middle;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="640" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"><defs><style type="text/css"></style></defs><path d="M512 85.333333C277.333333 85.333333 85.333333 261.973333 85.333333 480 85.333333 602.88 145.92 712.533333 241.066667 785.066667L243.626667 938.666667 390.826667 858.453333 389.546667 858.026667C428.373333 868.693333 469.333333 874.666667 512 874.666667 746.666667 874.666667 938.666667 698.026667 938.666667 480 938.666667 261.973333 746.666667 85.333333 512 85.333333M555.946667 614.826667 449.706667 502.613333 234.666667 614.826667 464.213333 374.613333 574.293333 480 781.226667 374.613333 555.946667 614.826667Z" p-id="641" fill="#007EF2"></path></svg>
+                                </a>
+                                <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/facebook" href="https://www.facebook.com/dialog/share?app_id=1977396445822338&amp;display=popup&amp;href=https://www.coupert.com/share/facebook/b1ahcu/" target="_blank" class="facebook">
+                                    <svg t="1576479617757" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="22px" height="22px"><path d="M0 0m73.142857 0l877.714286 0q73.142857 0 73.142857 73.142857l0 877.714286q0 73.142857-73.142857 73.142857l-877.714286 0q-73.142857 0-73.142857-73.142857l0-877.714286q0-73.142857 73.142857-73.142857Z" fill="#FFFFFF"></path><path d="M471.844571 1024V623.652571H329.142857v-156.013714h142.701714V352.365714C471.844571 219.062857 558.262857 146.285714 684.397714 146.285714c60.416 0 112.347429 4.169143 127.488 6.070857v139.556572h-87.625143c-68.388571 0-81.700571 31.012571-81.700571 76.324571v99.510857h163.474286l-21.211429 156.416h-142.262857V1024h-170.715429z" fill="#4164AD"></path></svg>
+                                </a>
+                                <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/twitter" href="https://www.twitter.com/share?url=https://www.coupert.com/share/twitter/b1ahcu/&amp;text=Never overpay with Coupert. Coupert offers coupons and up to 40 percentage cash back." target="_blank" class="twitter">
+                                    <svg class="icon" style="vertical-align: middle" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px"> <defs><style type="text/css"></style></defs><path d="M768.896 377.856c-18.88 8.384-39.168 14.016-60.416 16.576 21.76-12.992 38.4-33.664 46.272-58.24-20.352 12.032-42.816 20.8-66.816 25.472-19.136-20.416-46.528-33.216-76.8-33.216-58.048 0-105.216 47.168-105.216 105.216 0 8.256 0.896 16.256 2.688 23.936C421.12 453.312 343.616 411.456 291.712 347.712 282.624 363.328 277.44 381.44 277.44 400.704c0 36.48 18.56 68.672 46.848 87.552C307.008 487.744 290.816 483.008 276.608 475.136l0 1.28c0 51.008 36.288 93.568 84.416 103.168C352.192 582.08 342.912 583.296 333.312 583.296c-6.784 0-13.376-0.64-19.776-1.856 13.376 41.792 52.224 72.256 98.304 73.024-36.032 28.224-81.408 45.056-130.688 45.056-8.512 0-16.896-0.448-25.088-1.408 46.592 29.824 101.888 47.296 161.28 47.296 193.6 0 299.392-160.32 299.392-299.456 0-4.544-0.064-9.088-0.256-13.632C736.96 417.472 754.816 398.976 768.896 377.856" fill="#55ACEE"></path></svg>
+                                </a>
+                                <a class="share-email" ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/email" href="mailto:?subject=Have you heard of Coupert?&body=Just saved some cash using the Coupert app!%0d%0aI found this amazing new browser extension you need to check out: It will save you time money by automatically trying coupon codes on your favorite online stores, plus you get cash back from thousands of websites.%0d%0aJust join Coupert for free. You'll also get a $2 Welcome Bonus when you use my invite link to join: https://www.coupert.com/extension Happy shopping!">
+                                    <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3157" width="22" height="22"><path d="M7.1 227C2.8 239.4 0 252.6 0 266.4v478.4l347.4-301L7.1 227zM1020.7 239.2L694.6 437.3 1024 722.8V266.4c0-9.4-1.3-18.4-3.3-27.2zM991.7 184.4c-22.3-24.3-54-39.8-89.5-39.8H121.9c-30.9 0-58.9 11.9-80.4 30.9l470.9 300 479.3-291.1z" fill="#09BB07" p-id="3158" data-spm-anchor-id="a313x.7781069.0.i3" class="selected"></path><path d="M528.1 538.5c-0.2 0.2-0.5 0.2-0.7 0.3-1.6 0.9-3.3 1.5-5 2.2-0.8 0.3-1.6 0.8-2.5 1-2.4 0.6-4.7 0.9-7.2 1-0.2 0-0.4 0.1-0.7 0.1-0.2 0-0.3-0.1-0.6-0.1-2.5-0.1-5-0.4-7.5-1.1-0.9-0.2-1.7-0.7-2.5-1-1.8-0.7-3.6-1.4-5.3-2.4-0.2-0.2-0.5-0.2-0.8-0.4l-93.4-59.5L20.3 809.3c-1.9 1.7-4.2 2.7-6.4 3.7 20.2 39.3 60.7 66.4 107.9 66.4h780.3c52.9 0 97.6-34 114.4-81.2L639 471.1l-110.9 67.4z" fill="#09BB07" p-id="3159" data-spm-anchor-id="a313x.7781069.0.i4" class="selected"></path></svg>
+                                </a>
+                            </div>   
+                        </div> -->
+                    </div>
+                    <h3 i18n="today_deals_title">Today's Hot Deals</h3>
+                    <i class="fa fa-search search-icon"></i>
+                    <div class="close" id="search-close"></div>
+                </div>
+                <div class="search">
+                    <form>
+                        <input type="text" name="searchtxt" id="searchtxt" class="searchtxt form-control" placeholder="Search Coupon Here ">
+                        <button class="search-close" type="button">x</button>
+                    </form>
+                </div>
+            </header>
+             <div class="container container-store-box">
+                <ul class="nav nav-tabs nav-justified myTab">
+                    <li><a data-toggle="tab" class="active" href="#all">All</a></li>
+                    <li><a data-toggle="tab" href="#codes">Codes</a></li>
+                    <li><a data-toggle="tab" href="#deals">Deals</a></li>
+                </ul>
+               <!--  <div class="stores"> -->
+                   <!--  <h4 i18n="view_to_earn_gold">View to Earn Coupert Gold</h4>
+                    <ul class="store-list clearfix"></ul> -->
+                    <!-- 3.25 add -->
+                   <!--  <div class="view-gold-wrap">
+                        <div class="mask-container">
+                            <img src="../img/view-deals-gold.png">
+                            <p i18n="congratulations">congratulations</p>
+                            <h3 i18n="view_deal_gold">You got <span>3</span> gold</h3>
+                            <button class="eran-more-gold" i18n="earn_more_gold">Earn More Gold</button>
+                        </div>
+                        <div class="modal-close-btn"></div>-->
+                    <!-- </div>  -->
+                    <div class="hot-stores-wrapper">
+                       <!--  <h3 i18n="trending_stores">Hot Deals</h3> -->
+                        <div class="tab-content">
+                            <div id="all" class="tab-pane fade active show">
+                              <div id="all-cards">
+                                  <ul class="store-coupon-list">
+                                  </ul>
+                              </div>
+                            </div>
+                                <div id="codes" class="tab-pane fade">
+                                    <div id="code-cards"> <ul class="store-coupon-list"></ul></div>
+                            </div>
+
+                            <div id="deals" class="tab-pane fade">
+                              <div id="deal-cards">
+                                  <ul class="deals-list"></ul>
+                              </div>
+                            </div>
+                        </div>
+                        <!-- <ul class="hot-stores-list">
+                            <li class="hot-stores-item">
+                                <div class="logo">
+                                    <img src="">
+                                </div>
+                                <div class="detail">
+                                    <h4>Groupon</h4>
+                                    <p><span>23</span> codes + <span>5%</span> cashback</p>
+                                </div>
+                                <button type="button" class="hot-stores-shop">Shop</button>
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="code-panel" style="display: none;">
+            <header>
+                <div class="header">
+                    <div class="logo"><img src="../img/logo.png" width="22" height="22"></div>
+                    <div class="nav menu">
+                        <b class="nav-line"></b>
+                    </div>
+                    <div class="nav-list-wrapper">
+                        <ul class="list-item">
+                            <li class="items help" i18n="help_faq">Help/FAQ</li>
+                            <li class="items guide" i18n="how_to_use">How To Use</li>
+                            <li class="items feedback" i18n="submit_feedback">Submit Feedback</li>
+                            <li class="items account" i18n="my_account">My Account</li>
+                        </ul>
+                        <div class="share">
+                            <p i18n="share_with_friends">Share with your friends</p>
+                            <div class="share-icon">
+                                <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/facebook-message" href="https://www.facebook.com/dialog/send?app_id=1977396445822338&amp;link=coupert.com/share/facebook/b1ahcu/&amp;redirect_uri=https://www.coupert.com/share/facebook/b1ahcu/" target="_blank" class="messages">
+                                    <svg class="icon" style="vertical-align: middle;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="640" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"><defs><style type="text/css"></style></defs><path d="M512 85.333333C277.333333 85.333333 85.333333 261.973333 85.333333 480 85.333333 602.88 145.92 712.533333 241.066667 785.066667L243.626667 938.666667 390.826667 858.453333 389.546667 858.026667C428.373333 868.693333 469.333333 874.666667 512 874.666667 746.666667 874.666667 938.666667 698.026667 938.666667 480 938.666667 261.973333 746.666667 85.333333 512 85.333333M555.946667 614.826667 449.706667 502.613333 234.666667 614.826667 464.213333 374.613333 574.293333 480 781.226667 374.613333 555.946667 614.826667Z" p-id="641" fill="#007EF2"></path></svg>
+                                </a>
+                                <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/facebook" href="https://www.facebook.com/dialog/share?app_id=1977396445822338&amp;display=popup&amp;href=https://www.coupert.com/share/facebook/b1ahcu/" target="_blank" class="facebook">
+                                    <svg t="1576479617757" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="22px" height="22px"><path d="M0 0m73.142857 0l877.714286 0q73.142857 0 73.142857 73.142857l0 877.714286q0 73.142857-73.142857 73.142857l-877.714286 0q-73.142857 0-73.142857-73.142857l0-877.714286q0-73.142857 73.142857-73.142857Z" fill="#FFFFFF"></path><path d="M471.844571 1024V623.652571H329.142857v-156.013714h142.701714V352.365714C471.844571 219.062857 558.262857 146.285714 684.397714 146.285714c60.416 0 112.347429 4.169143 127.488 6.070857v139.556572h-87.625143c-68.388571 0-81.700571 31.012571-81.700571 76.324571v99.510857h163.474286l-21.211429 156.416h-142.262857V1024h-170.715429z" fill="#4164AD"></path></svg>
+                                </a>
+                                <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/twitter" href="https://www.twitter.com/share?url=https://www.coupert.com/share/twitter/b1ahcu/&amp;text=Never overpay with Coupert. Coupert offers coupons and up to 40 percentage cash back." target="_blank" class="twitter">
+                                    <svg class="icon" style="vertical-align: middle" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px"> <defs><style type="text/css"></style></defs><path d="M768.896 377.856c-18.88 8.384-39.168 14.016-60.416 16.576 21.76-12.992 38.4-33.664 46.272-58.24-20.352 12.032-42.816 20.8-66.816 25.472-19.136-20.416-46.528-33.216-76.8-33.216-58.048 0-105.216 47.168-105.216 105.216 0 8.256 0.896 16.256 2.688 23.936C421.12 453.312 343.616 411.456 291.712 347.712 282.624 363.328 277.44 381.44 277.44 400.704c0 36.48 18.56 68.672 46.848 87.552C307.008 487.744 290.816 483.008 276.608 475.136l0 1.28c0 51.008 36.288 93.568 84.416 103.168C352.192 582.08 342.912 583.296 333.312 583.296c-6.784 0-13.376-0.64-19.776-1.856 13.376 41.792 52.224 72.256 98.304 73.024-36.032 28.224-81.408 45.056-130.688 45.056-8.512 0-16.896-0.448-25.088-1.408 46.592 29.824 101.888 47.296 161.28 47.296 193.6 0 299.392-160.32 299.392-299.456 0-4.544-0.064-9.088-0.256-13.632C736.96 417.472 754.816 398.976 768.896 377.856" fill="#55ACEE"></path></svg>
+                                </a>
+                                <a class="share-email" ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/email" href="mailto:?subject=Have you heard of Coupert?&body=Just saved some cash using the Coupert app!%0d%0aI found this amazing new browser extension you need to check out: It will save you time money by automatically trying coupon codes on your favorite online stores, plus you get cash back from thousands of websites.%0d%0aJust join Coupert for free. You'll also get a $2 Welcome Bonus when you use my invite link to join: https://www.coupert.com/extension Happy shopping!">
+                                    <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3157" width="22" height="22"><path d="M7.1 227C2.8 239.4 0 252.6 0 266.4v478.4l347.4-301L7.1 227zM1020.7 239.2L694.6 437.3 1024 722.8V266.4c0-9.4-1.3-18.4-3.3-27.2zM991.7 184.4c-22.3-24.3-54-39.8-89.5-39.8H121.9c-30.9 0-58.9 11.9-80.4 30.9l470.9 300 479.3-291.1z" fill="#09BB07" p-id="3158" data-spm-anchor-id="a313x.7781069.0.i3" class="selected"></path><path d="M528.1 538.5c-0.2 0.2-0.5 0.2-0.7 0.3-1.6 0.9-3.3 1.5-5 2.2-0.8 0.3-1.6 0.8-2.5 1-2.4 0.6-4.7 0.9-7.2 1-0.2 0-0.4 0.1-0.7 0.1-0.2 0-0.3-0.1-0.6-0.1-2.5-0.1-5-0.4-7.5-1.1-0.9-0.2-1.7-0.7-2.5-1-1.8-0.7-3.6-1.4-5.3-2.4-0.2-0.2-0.5-0.2-0.8-0.4l-93.4-59.5L20.3 809.3c-1.9 1.7-4.2 2.7-6.4 3.7 20.2 39.3 60.7 66.4 107.9 66.4h780.3c52.9 0 97.6-34 114.4-81.2L639 471.1l-110.9 67.4z" fill="#09BB07" p-id="3159" data-spm-anchor-id="a313x.7781069.0.i4" class="selected"></path></svg>
+                                </a>
+                            </div>   
+                        </div>
+                    </div>
+                    <p class="store-home-domain"></p>
+                    <div class="close"></div>
+                </div>
+            </header>
+            <div class="container">
+                <!-- code list -->
+                <!-- <div class="earn-up-cashback" style="display: none;">
+                    <h2 i18n="earn_up_cashback">Activate <span class="cashback-rate">1 - 6%</span> Cash Back <b><span class="how-it-works-hover"><span class="noclick">Cashback is different from coupons. Get rewarded for stuff that you're already buying with Coupert Gold! Merchants give us a small commission for bringing them business, and we directly share it with you through our free Coupert Gold rewards program. You can redeem via PayPal easily.</span><br><span class="canclick">Learn more</span></span></b></h2>
+                    <button class="btn code-btn activate-btn" id="code-list-store-rewards-active" i18n="store_rewards_active">Activate</button>
+                </div> -->
+                <ul class="store-coupon-list">
+                </ul>
+                <div class="store-no-code" style="display: none;">
+                    <div class="no-code-tips">
+                        <p i18n="no_code_tips">
+                            <span>Coupert always spares no effort to update the coupon info every day.</span>
+                            <br>
+                            <span>Sorry, no code available at this time.</span>
+                        </p>
+                    </div>
+                    <ul class="store-list trending-store-list clearfix"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- account -->
+    <div class="store-account-box" style="display: none;">
+        <header id="logo-left">
+            <div class="header">
+                <div class="logo"><img src="../img/logo.png" width="22" height="22"></div>
+                <div class="nav menu">
+                    <b class="nav-line"></b>
+                </div>
+                <div class="nav-list-wrapper">
+                    <ul class="list-item">
+                        <li class="items help" i18n="help_faq">Help/FAQ</li>
+                        <li class="items guide" i18n="how_to_use">How To Use</li>
+                        <li class="items feedback" i18n="submit_feedback">Submit Feedback</li>
+                        <li class="items account" i18n="my_account">My Account</li>
+                    </ul>
+                    <div class="share">
+                        <p i18n="share_with_friends">Share with your friends</p>
+                        <div class="share-icon">
+                            <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/facebook-message" href="https://www.facebook.com/dialog/send?app_id=1977396445822338&amp;link=coupert.com/share/facebook/b1ahcu/&amp;redirect_uri=https://www.coupert.com/share/facebook/b1ahcu/" target="_blank" class="messages">
+                                <svg class="icon" style="vertical-align: middle;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="640" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"><defs><style type="text/css"></style></defs><path d="M512 85.333333C277.333333 85.333333 85.333333 261.973333 85.333333 480 85.333333 602.88 145.92 712.533333 241.066667 785.066667L243.626667 938.666667 390.826667 858.453333 389.546667 858.026667C428.373333 868.693333 469.333333 874.666667 512 874.666667 746.666667 874.666667 938.666667 698.026667 938.666667 480 938.666667 261.973333 746.666667 85.333333 512 85.333333M555.946667 614.826667 449.706667 502.613333 234.666667 614.826667 464.213333 374.613333 574.293333 480 781.226667 374.613333 555.946667 614.826667Z" p-id="641" fill="#007EF2"></path></svg>
+                            </a>
+                            <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/facebook" href="https://www.facebook.com/dialog/share?app_id=1977396445822338&amp;display=popup&amp;href=https://www.coupert.com/share/facebook/b1ahcu/" target="_blank" class="facebook">
+                                <svg t="1576479617757" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="22px" height="22px"><path d="M0 0m73.142857 0l877.714286 0q73.142857 0 73.142857 73.142857l0 877.714286q0 73.142857-73.142857 73.142857l-877.714286 0q-73.142857 0-73.142857-73.142857l0-877.714286q0-73.142857 73.142857-73.142857Z" fill="#FFFFFF"></path><path d="M471.844571 1024V623.652571H329.142857v-156.013714h142.701714V352.365714C471.844571 219.062857 558.262857 146.285714 684.397714 146.285714c60.416 0 112.347429 4.169143 127.488 6.070857v139.556572h-87.625143c-68.388571 0-81.700571 31.012571-81.700571 76.324571v99.510857h163.474286l-21.211429 156.416h-142.262857V1024h-170.715429z" fill="#4164AD"></path></svg>
+                            </a>
+                            <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/twitter" href="https://www.twitter.com/share?url=https://www.coupert.com/share/twitter/b1ahcu/&amp;text=Never overpay with Coupert. Coupert offers coupons and up to 40 percentage cash back." target="_blank" class="twitter">
+                                <svg class="icon" style="vertical-align: middle" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px"> <defs><style type="text/css"></style></defs><path d="M768.896 377.856c-18.88 8.384-39.168 14.016-60.416 16.576 21.76-12.992 38.4-33.664 46.272-58.24-20.352 12.032-42.816 20.8-66.816 25.472-19.136-20.416-46.528-33.216-76.8-33.216-58.048 0-105.216 47.168-105.216 105.216 0 8.256 0.896 16.256 2.688 23.936C421.12 453.312 343.616 411.456 291.712 347.712 282.624 363.328 277.44 381.44 277.44 400.704c0 36.48 18.56 68.672 46.848 87.552C307.008 487.744 290.816 483.008 276.608 475.136l0 1.28c0 51.008 36.288 93.568 84.416 103.168C352.192 582.08 342.912 583.296 333.312 583.296c-6.784 0-13.376-0.64-19.776-1.856 13.376 41.792 52.224 72.256 98.304 73.024-36.032 28.224-81.408 45.056-130.688 45.056-8.512 0-16.896-0.448-25.088-1.408 46.592 29.824 101.888 47.296 161.28 47.296 193.6 0 299.392-160.32 299.392-299.456 0-4.544-0.064-9.088-0.256-13.632C736.96 417.472 754.816 398.976 768.896 377.856" fill="#55ACEE"></path></svg>
+                            </a>
+                            <a class="share-email" ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/email" href="mailto:?subject=Have you heard of Coupert?&body=Just saved some cash using the Coupert app!%0d%0aI found this amazing new browser extension you need to check out: It will save you time money by automatically trying coupon codes on your favorite online stores, plus you get cash back from thousands of websites.%0d%0aJust join Coupert for free. You'll also get a $2 Welcome Bonus when you use my invite link to join: https://www.coupert.com/extension Happy shopping!">
+                                <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3157" width="22" height="22"><path d="M7.1 227C2.8 239.4 0 252.6 0 266.4v478.4l347.4-301L7.1 227zM1020.7 239.2L694.6 437.3 1024 722.8V266.4c0-9.4-1.3-18.4-3.3-27.2zM991.7 184.4c-22.3-24.3-54-39.8-89.5-39.8H121.9c-30.9 0-58.9 11.9-80.4 30.9l470.9 300 479.3-291.1z" fill="#09BB07" p-id="3158" data-spm-anchor-id="a313x.7781069.0.i3" class="selected"></path><path d="M528.1 538.5c-0.2 0.2-0.5 0.2-0.7 0.3-1.6 0.9-3.3 1.5-5 2.2-0.8 0.3-1.6 0.8-2.5 1-2.4 0.6-4.7 0.9-7.2 1-0.2 0-0.4 0.1-0.7 0.1-0.2 0-0.3-0.1-0.6-0.1-2.5-0.1-5-0.4-7.5-1.1-0.9-0.2-1.7-0.7-2.5-1-1.8-0.7-3.6-1.4-5.3-2.4-0.2-0.2-0.5-0.2-0.8-0.4l-93.4-59.5L20.3 809.3c-1.9 1.7-4.2 2.7-6.4 3.7 20.2 39.3 60.7 66.4 107.9 66.4h780.3c52.9 0 97.6-34 114.4-81.2L639 471.1l-110.9 67.4z" fill="#09BB07" p-id="3159" data-spm-anchor-id="a313x.7781069.0.i4" class="selected"></path></svg>
+                            </a>
+                        </div>  
+                    </div>
+                </div>
+                <p class="home-my-account" i18n="my_account">My Account</p>
+                <div class="close"></div>
+            </div>
+        </header>
+        <div class="sign-in-before">
+            <div class="container">
+                <!-- sign in or sign up -->
+                <div class="account-box">
+                    <h3 class="account-title">
+                        <span class="active" id="account-log-in" data-flag="log-in" i18n="account_sign_in">LOG IN</span>
+                        <span id="account-sign-up" i18n="account_sign_up">SIGN UP</span>
+                    </h3>
+                    <!-- log in -->
+                    <div class="log-in-box">
+                        <p class="account-tips" i18n="account_sign_in_tips">Log In to View Gold Details</p>
+                        <div class="facebook-tips">
+                            <span class="facebook-warning"></span>
+                            <p>Your Facebook account doesn't have an email,please sign up with email below.</p>
+                            <span class="close-facebook-tips">&times;</span>
+                        </div>
+                        <button class="account-with-facebook">
+                            <b></b>
+                            <h4 i18n='log_in_with_facebook'>Log in with Facebook</h4>
+                        </button>
+                        <div class="or">
+                            <u></u>
+                            <p i18n="account_or">or</p>
+                            <u></u>
+                        </div>
+                        <div class="account-input">
+                            <div>
+                                <input type="email" name="email" class="email" id="sign-in-email" placeholder="Email" required="required" autocomplete='off' tabindex="1"></div>
+                            <div>
+                                <input type="password" name="pwd" class="pwd" id="sign-in-password" placeholder="Password" required="required" autocomplete='off' tabindex="2">
+                                <b class="eye"></b>
+                            </div>
+                            <p class="sign-in-password-error red" i18n="sign_in_password_error" style="display: none;">Incorrect email or password</p>
+                        </div>
+                        <button class="log-in" id="sign-in-button" i18n="account_sign_in">LOG IN</button>
+                        <p class="privacy-policy"><span i18n="user_privacy_policy_I">By clicking the button to Sign in, I agree to the </span><a href="javascript:void(0);" target="_blank" class="terms-of-use"><span i18n="user_privacy_policy_II">Terms Of Use</span></a>, <span i18n="user_privacy_policy_III">the</span> <a href="javascript:void(0);" target="_blank" class="cashback-terms how-it-works-link" data-utm_content="sign-in"><span i18n="user_privacy_policy_IV">CashBack Terms</span></a>, <span i18n="user_privacy_policy_V">and have read the </span><a href="javascript:void(0);" target="_blank" class="privacy-policy"><span i18n="user_privacy_policy_VI">Privacy Policy</span></a>.</p>
+                        <p class="forgot-password" i18n="forgot_password">Forgot your password?</p>
+                    </div>
+                    <!-- sign up -->
+                    <div class="sign-up-box" style="display: none;">
+                        <p class="account-tips" i18n="account_sign_up_tips">Join Coupert and Get 150 Gold</p>
+                        <div class="facebook-tips">
+                            <span class="facebook-warning"></span>
+                            <p>Your Facebook account doesn't have an email,please sign up with email below.</p>
+                            <span class="close-facebook-tips">&times;</span>
+                        </div>
+                        <button class="account-with-facebook">
+                            <b></b>
+                            <h4 i18n="sign_up_with_facebook">Sign up with Facebook</h4></button>
+                        <div class="or">
+                            <u></u>
+                            <p i18n="account_or">or</p>
+                            <u></u>
+                        </div>
+                        <div class="account-input">
+                            <div>
+                                <input type="email" name="email" class="email" id="sign-up-email" placeholder="Email" required="required" autocomplete='off' tabindex="1">
+                            </div>
+                            <p class="email-error-tips red" i18n="email_tips" style="display: none;">This email address has already been registered.</p>
+                            <div>
+                                <input type="password" name="pwd" class="pwd" id="sign-up-password" placeholder="At least 6 characters" required="required" autocomplete='off' tabindex="2">
+                                <b class="eye"></b>
+                            </div>
+                            <p class="sign-up-password-error red" i18n="sign_up_password_tips" style="display: none;">At least 6 characters</p>
+                        </div>
+                        <button class="sign-up" id="sign-up-button" i18n="account_sign_up">SIGN UP</button>
+                        <p class="privacy-policy"><span i18n="user_privacy_policy_VII">By clicking the button to Sign up, I agree to the </span><a href="javascript:void(0);" target="_blank" class="terms-of-use"><span i18n="user_privacy_policy_II">Terms Of Use</span></a>, <span i18n="user_privacy_policy_III">the</span> <a href="javascript:void(0);" target="_blank" class="cashback-terms how-it-works-link" data-utm_content="sign-in"><span i18n="user_privacy_policy_IV">CashBack Terms</span></a>, <span i18n="user_privacy_policy_V">and have read the </span><a href="javascript:void(0);" target="_blank" class="privacy-policy"><span i18n="user_privacy_policy_VI">Privacy Policy</span></a>.</p>
+                    </div>
+                </div>
+                <!-- forgot password -->
+                <div class="reset-password-box"  style="display: none;">
+                    <h3 class="account-title">
+                        <span id="reset-log-in" data-flag="log-in" i18n="account_sign_in">LOG IN</span>
+                        <span id="reset-sign-up" i18n="account_sign_up">SIGN UP</span>
+                    </h3>
+                    <div class="forgot-password-container">
+                        <h3 class="forgot-password-title" i18n="forgot_password">Forgot your password?</h3>
+                        <p class="reset-password-notice" i18n="forgot_password_notice">Please enter the email address for your
+                            <br>Coupert's account, and we'll email you a link
+                            <br>to reset your password.
+                        </p>
+                        <div class="account-input">
+                            <div>
+                                <input type="email" name="email" class="email" id="reset-email" placeholder="Email" required="required" autocomplete='off'>
+                            </div>
+                            <button class="continue" i18n="forgot_continue">Continue</button></div>
+                            <div class="case-one" style="display: none;" i18n="reset_faile">
+                                <p class="case-one-tips">This email address has not been registered.</p>
+                                <p class="sign-up-now">Sign up now.</p>
+                            </div>
+                            <div class="case-two" style="display: none;" i18n="reset_success">
+                                <p class="reset-password-success">Reset link sent successfully to
+                                    <span class="reset-user-name"></span>
+                                </p>
+                                <p class="case-two-tips">If you don’t read the email, look in your spam folder or double-check that the email address shown above is accurate.</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sign-in-after" style="display: none;">
+            <div class="container">
+                <h3 class="gold-title">
+                    <span class="gold account-active" style="cursor: pointer;" i18n="account_gold">Account gold</span>
+                    <span class="account" style="cursor: pointer;" i18n="account_account">Account</span>
+                </h3>
+                <div class="account-gold-box" style="display: none;">
+                    <div class="account-balance">
+                        <h3 i18n="account_balance">Current Balance</h3>
+                        <h4 class="text-bold" id="current-gold">2000</h4>
+                        <div class="coupon-codes">
+                            <p class="coupon">
+                                <span class="text-bold" data-web-uri="/secure/gold" id="total-gold-svg">
+                                    <span id="pending-gold">300</span>
+                                </span>
+                                <span i18n="pending_gold">Pending</span>
+                            </p>
+                            <p class="coupon">
+                                <span class="text-bold" id="confirmed-gold"></span>
+                                <span i18n="confirmed_gold">Confirmed</span>
+                            </p>
+                            <p class="coupon">
+                                <span class="text-bold" id="withdraw-able-gold">500</span>
+                                <span i18n="confirmed_able">Withdraw-able</span>  
+                            </p>
+                        </div>
+                        <!-- theme-color -->
+                        <div class="account-withdraw" i18n="account_withdraw">Withdraw</div>
+                        <p class="withdraw-tips" i18n="withdraw_tips">1200 withdraw-able balance minimum to withdraw</p>
+                        <p class="faq-link" i18n="faq_redemption">FAQ about redemption</p>
+                    </div>
+                    <div class="invite-friend" id="activity_invite-friend">
+                        <h3 i18n="invite_friends">Invite Friends</h3>
+                        <p i18n="invite_friends_desc">Refer a friend, get $5 and extra 20% referral bonus of your friend's cashback amount when they shop with Coupert.</p>
+                        <div class="copy-con" id="invite-friend-link">
+                            <input type="text" placeholder="https://www.coupert.com/" readonly="true" value="https://www.coupert.com/">
+                            <span class="copied" i18n="invite_friend_link_copy">Copy</span>
+                        </div>
+                        <ul class="share-platform clearfix" id="share-module">
+                            <li class="messages">
+                                <a ga-category="statistics" ga-action="account-center" ga-label="/statistics/account-center/click/invite-friends/facebook-message" href="https://www.facebook.com/dialog/send?app_id=1977396445822338&amp;link=coupert.com/share/facebook/b1ahcu/&amp;redirect_uri=https://www.coupert.com/share/facebook/b1ahcu/" target="_blank">
+                                    <svg class="icon" style="vertical-align: middle;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="640" xmlns:xlink="http://www.w3.org/1999/xlink" width="60%" height="60%"><defs><style type="text/css"></style></defs><path d="M512 85.333333C277.333333 85.333333 85.333333 261.973333 85.333333 480 85.333333 602.88 145.92 712.533333 241.066667 785.066667L243.626667 938.666667 390.826667 858.453333 389.546667 858.026667C428.373333 868.693333 469.333333 874.666667 512 874.666667 746.666667 874.666667 938.666667 698.026667 938.666667 480 938.666667 261.973333 746.666667 85.333333 512 85.333333M555.946667 614.826667 449.706667 502.613333 234.666667 614.826667 464.213333 374.613333 574.293333 480 781.226667 374.613333 555.946667 614.826667Z" p-id="641" fill="#ffffff"></path></svg>
+                                </a>
+                            </li>
+                            <li class="facebook">
+                                <a ga-category="statistics" ga-action="account-center" ga-label="/statistics/account-center/click/invite-friends/facebook" href="https://www.facebook.com/dialog/share?app_id=1977396445822338&amp;display=popup&amp;href=https://www.coupert.com/share/facebook/b1ahcu/" target="_blank">
+                                    <svg class="icon" style="vertical-align: middle" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90%" height="90%"><defs><style type="text/css"></style></defs><path d="M388.608 425.28l52.928 0L441.536 373.888c0-22.72 0.576-57.664 17.024-79.36 17.344-22.976 41.216-38.592 82.176-38.592 66.752 0 94.912 9.536 94.912 9.536L622.464 343.872c0 0-22.08-6.4-42.624-6.4-20.608 0-39.04 7.36-39.04 27.968l0 59.84 84.416 0L619.264 501.888 540.736 501.888l0 266.112-99.2 0L441.536 501.888 388.608 501.888 388.608 425.28z" fill="#fff"></path></svg>
+                                </a>
+                            </li>
+                            <li class="twitter">
+                                <a ga-category="statistics" ga-action="account-center" ga-label="/statistics/account-center/click/invite-friends/twitter" href="https://www.twitter.com/share?url=https://www.coupert.com/share/twitter/b1ahcu/&amp;text=Never overpay with Coupert. Coupert offers coupons and up to 40 percentage cash back." target="_blank">
+                                    <svg class="icon" style="vertical-align: middle" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90%" height="90%"><defs><style type="text/css"></style></defs><path d="M768.896 377.856c-18.88 8.384-39.168 14.016-60.416 16.576 21.76-12.992 38.4-33.664 46.272-58.24-20.352 12.032-42.816 20.8-66.816 25.472-19.136-20.416-46.528-33.216-76.8-33.216-58.048 0-105.216 47.168-105.216 105.216 0 8.256 0.896 16.256 2.688 23.936C421.12 453.312 343.616 411.456 291.712 347.712 282.624 363.328 277.44 381.44 277.44 400.704c0 36.48 18.56 68.672 46.848 87.552C307.008 487.744 290.816 483.008 276.608 475.136l0 1.28c0 51.008 36.288 93.568 84.416 103.168C352.192 582.08 342.912 583.296 333.312 583.296c-6.784 0-13.376-0.64-19.776-1.856 13.376 41.792 52.224 72.256 98.304 73.024-36.032 28.224-81.408 45.056-130.688 45.056-8.512 0-16.896-0.448-25.088-1.408 46.592 29.824 101.888 47.296 161.28 47.296 193.6 0 299.392-160.32 299.392-299.456 0-4.544-0.064-9.088-0.256-13.632C736.96 417.472 754.816 398.976 768.896 377.856" fill="#fff"></path></svg>
+                                </a>
+                            </li>
+                            <li class="email">
+                                <a class="share-email" ga-category="statistics" ga-action="account-center" ga-label="/statistics/account-center/click/invite-friends/email" href="mailto:?subject=Have you heard of Coupert?&body=Just saved some cash using the Coupert app!%0d%0aI found this amazing new browser extension you need to check out: It will save you time money by automatically trying coupon codes on your favorite online stores, plus you get cash back from thousands of websites.%0d%0aJust join Coupert for free. You'll also get a $2 Welcome Bonus when you use my invite link to join: https://www.coupert.com/extension Happy shopping!">
+                                    <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3157" width="16" height="16"><path d="M7.1 227C2.8 239.4 0 252.6 0 266.4v478.4l347.4-301L7.1 227zM1020.7 239.2L694.6 437.3 1024 722.8V266.4c0-9.4-1.3-18.4-3.3-27.2zM991.7 184.4c-22.3-24.3-54-39.8-89.5-39.8H121.9c-30.9 0-58.9 11.9-80.4 30.9l470.9 300 479.3-291.1z" fill="#ffffff" p-id="3158" data-spm-anchor-id="a313x.7781069.0.i3" class="selected"></path><path d="M528.1 538.5c-0.2 0.2-0.5 0.2-0.7 0.3-1.6 0.9-3.3 1.5-5 2.2-0.8 0.3-1.6 0.8-2.5 1-2.4 0.6-4.7 0.9-7.2 1-0.2 0-0.4 0.1-0.7 0.1-0.2 0-0.3-0.1-0.6-0.1-2.5-0.1-5-0.4-7.5-1.1-0.9-0.2-1.7-0.7-2.5-1-1.8-0.7-3.6-1.4-5.3-2.4-0.2-0.2-0.5-0.2-0.8-0.4l-93.4-59.5L20.3 809.3c-1.9 1.7-4.2 2.7-6.4 3.7 20.2 39.3 60.7 66.4 107.9 66.4h780.3c52.9 0 97.6-34 114.4-81.2L639 471.1l-110.9 67.4z" fill="#ffffff" p-id="3159" data-spm-anchor-id="a313x.7781069.0.i4" class="selected"></path></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="account-about">
+                        <div class="coupert-cashback"></div>
+                        <p i18n="account_cashback_reward">Coupert Gold could be exchanged for cash via Paypal.</p>
+                        <a href="javascript:void(0);" class="how-it-works how-it-works-link" data-utm_content="paypal" i18n="how_it_works">How it works?</a>
+                    </div>
+                </div>
+                <div class="account-settings-box" style="display: none;">
+                    <div class="user-info">
+                        <div class="user-img">
+                            <img src="../img/user-img.png">
+                        </div>
+                        <div class="user-name">
+                            <span id="firstname"></span>
+                            <span id="useremail"></span>
+                        </div>
+                        <div class="arrow-left"><img src="../img/arrow-left.svg"></div>
+                    </div>
+                    <div class="user-settings">
+                        <div id="account-center" data-web-uri="/secure/overview" ga-track="accountcenter">
+                            <span i18n="account_center">Account Center</span>
+                            <span>
+                            <img src="../img/arrow-left.svg"></span>
+                        </div>
+                        <div id="invite-friend" data-web-uri="/secure/invite" ga-track="invitefriends">
+                            <span i18n="account_invite_friend">Invite Friends</span>
+                            <span>
+                            <img src="../img/arrow-left.svg"></span>
+                        </div>
+                        <div id="rate-coupert">
+                            <span i18n="account_rate_coupert">Rate Coupert</span>
+                            <span><img src="../img/arrow-left.svg"></span>
+                        </div>
+                        <div id="account-help" data-web-uri="/help" ga-track="help">
+                            <span i18n="account_help">Help</span>
+                            <span>
+                            <img src="../img/arrow-left.svg"></span>
+                        </div>
+                        <div id="account-settings" data-web-uri="/secure/setting" ga-track="settings">
+                            <span i18n="account_settings">Settings</span>
+                            <span>
+                            <img src="../img/arrow-left.svg"></span>
+                        </div>
+                        <div id="account-forget-password" data-web-uri="/secure/setting" ga-track="settings">
+                            <span i18n="forget_password">Forget Password</span>
+                            <span>
+                            <img src="../img/arrow-left.svg"></span>
+                        </div>
+                        <div id="account-logout">
+                            <span i18n="account_logout">Log Out</span>
+                        </div>
+                    </div>
+                    <div class="modify-user-info" style="display: none;">
+                        <div class="modify-user-img">
+                            <div class="arrow-left"><img src="../img/arrow-left.svg"></div>
+                            <div class="deafult-user-img">
+                                <img src="../img/user-img.png">
+                                <p id="useremail"></p>
+                            </div>
+                        </div>
+                        <div class="modify-profile">
+                            <div class="name">
+                                <label i18n="Full_Name">Full Name</label>
+                                <input type="text" name="" id="name" autocomplete="off" >
+                            </div>
+                            <div class="birthdate">
+                                <label i18n="Birthdate">Birthdate</label>
+                                <div id="birthday">
+                                    <select name="year" id="year"></select>
+                                    <select name="month" id="month"></select>
+                                    <select name="day" id="day"></select>
+                                </div>
+                            </div>
+                            <div class="gender">
+                                <label i18n="Gender">Gender:</label>
+                                <div class="gender-select">
+                                    <div class="gender-item">
+                                        <label class="radio">
+                                          <input type="radio" name="gender" value="female" id="female">
+                                          <i></i>
+                                        </label>
+                                        <span i18n="Female">Female</span>
+                                      </div>
+                                      <div class="gender-item">
+                                        <label class="radio">
+                                          <input type="radio" name="gender" value="Male" id="male">
+                                           <i></i>
+                                        </label>
+                                        <span i18n="Male">Male</span>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="info-update updated" i18n="modify_user_info_update" disabled="disabled">Update</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- not available /sorry -->
+    <div class="coupert-not-available-box" style="display: none;">
+        <header>
+            <div class="header">
+                <div class="logo"><img src="../img/logo.png" width="22" height="22"></div>
+                <div class="nav menu">
+                    <b class="nav-line"></b>
+                </div>
+                <div class="nav-list-wrapper">
+                    <ul class="list-item">
+                        <li class="items help" i18n="help_faq">Help/FAQ</li>
+                        <li class="items guide" i18n="how_to_use">How To Use</li>
+                        <li class="items feedback" i18n="submit_feedback">Submit Feedback</li>
+                        <li class="items account" i18n="my_account">My Account</li>
+                    </ul>
+                    <div class="share">
+                        <p i18n="share_with_friends">Share with your friends</p>
+                        <div class="share-icon">
+                            <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/facebook-message" href="https://www.facebook.com/dialog/send?app_id=1977396445822338&amp;link=coupert.com/share/facebook/b1ahcu/&amp;redirect_uri=https://www.coupert.com/share/facebook/b1ahcu/" target="_blank" class="messages">
+                                <svg class="icon" style="vertical-align: middle;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="640" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"><defs><style type="text/css"></style></defs><path d="M512 85.333333C277.333333 85.333333 85.333333 261.973333 85.333333 480 85.333333 602.88 145.92 712.533333 241.066667 785.066667L243.626667 938.666667 390.826667 858.453333 389.546667 858.026667C428.373333 868.693333 469.333333 874.666667 512 874.666667 746.666667 874.666667 938.666667 698.026667 938.666667 480 938.666667 261.973333 746.666667 85.333333 512 85.333333M555.946667 614.826667 449.706667 502.613333 234.666667 614.826667 464.213333 374.613333 574.293333 480 781.226667 374.613333 555.946667 614.826667Z" p-id="641" fill="#007EF2"></path></svg>
+                            </a>
+                            <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/facebook" href="https://www.facebook.com/dialog/share?app_id=1977396445822338&amp;display=popup&amp;href=https://www.coupert.com/share/facebook/b1ahcu/" target="_blank" class="facebook">
+                                <svg t="1576479617757" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="22px" height="22px"><path d="M0 0m73.142857 0l877.714286 0q73.142857 0 73.142857 73.142857l0 877.714286q0 73.142857-73.142857 73.142857l-877.714286 0q-73.142857 0-73.142857-73.142857l0-877.714286q0-73.142857 73.142857-73.142857Z" fill="#FFFFFF"></path><path d="M471.844571 1024V623.652571H329.142857v-156.013714h142.701714V352.365714C471.844571 219.062857 558.262857 146.285714 684.397714 146.285714c60.416 0 112.347429 4.169143 127.488 6.070857v139.556572h-87.625143c-68.388571 0-81.700571 31.012571-81.700571 76.324571v99.510857h163.474286l-21.211429 156.416h-142.262857V1024h-170.715429z" fill="#4164AD"></path></svg>
+                            </a>
+                            <a ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/twitter" href="https://www.twitter.com/share?url=https://www.coupert.com/share/twitter/b1ahcu/&amp;text=Never overpay with Coupert. Coupert offers coupons and up to 40 percentage cash back." target="_blank" class="twitter">
+                                <svg class="icon" style="vertical-align: middle" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px"> <defs><style type="text/css"></style></defs><path d="M768.896 377.856c-18.88 8.384-39.168 14.016-60.416 16.576 21.76-12.992 38.4-33.664 46.272-58.24-20.352 12.032-42.816 20.8-66.816 25.472-19.136-20.416-46.528-33.216-76.8-33.216-58.048 0-105.216 47.168-105.216 105.216 0 8.256 0.896 16.256 2.688 23.936C421.12 453.312 343.616 411.456 291.712 347.712 282.624 363.328 277.44 381.44 277.44 400.704c0 36.48 18.56 68.672 46.848 87.552C307.008 487.744 290.816 483.008 276.608 475.136l0 1.28c0 51.008 36.288 93.568 84.416 103.168C352.192 582.08 342.912 583.296 333.312 583.296c-6.784 0-13.376-0.64-19.776-1.856 13.376 41.792 52.224 72.256 98.304 73.024-36.032 28.224-81.408 45.056-130.688 45.056-8.512 0-16.896-0.448-25.088-1.408 46.592 29.824 101.888 47.296 161.28 47.296 193.6 0 299.392-160.32 299.392-299.456 0-4.544-0.064-9.088-0.256-13.632C736.96 417.472 754.816 398.976 768.896 377.856" fill="#55ACEE"></path></svg>
+                            </a>
+                            <a class="share-email" ga-category="statistics" ga-action="setting" ga-label="/statistics/setting/click/share-with-your-friends/email" href="mailto:?subject=Have you heard of Coupert?&body=Just saved some cash using the Coupert app!%0d%0aI found this amazing new browser extension you need to check out: It will save you time money by automatically trying coupon codes on your favorite online stores, plus you get cash back from thousands of websites.%0d%0aJust join Coupert for free. You'll also get a $2 Welcome Bonus when you use my invite link to join: https://www.coupert.com/extension Happy shopping!">
+                                <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3157" width="22" height="22"><path d="M7.1 227C2.8 239.4 0 252.6 0 266.4v478.4l347.4-301L7.1 227zM1020.7 239.2L694.6 437.3 1024 722.8V266.4c0-9.4-1.3-18.4-3.3-27.2zM991.7 184.4c-22.3-24.3-54-39.8-89.5-39.8H121.9c-30.9 0-58.9 11.9-80.4 30.9l470.9 300 479.3-291.1z" fill="#09BB07" p-id="3158" data-spm-anchor-id="a313x.7781069.0.i3" class="selected"></path><path d="M528.1 538.5c-0.2 0.2-0.5 0.2-0.7 0.3-1.6 0.9-3.3 1.5-5 2.2-0.8 0.3-1.6 0.8-2.5 1-2.4 0.6-4.7 0.9-7.2 1-0.2 0-0.4 0.1-0.7 0.1-0.2 0-0.3-0.1-0.6-0.1-2.5-0.1-5-0.4-7.5-1.1-0.9-0.2-1.7-0.7-2.5-1-1.8-0.7-3.6-1.4-5.3-2.4-0.2-0.2-0.5-0.2-0.8-0.4l-93.4-59.5L20.3 809.3c-1.9 1.7-4.2 2.7-6.4 3.7 20.2 39.3 60.7 66.4 107.9 66.4h780.3c52.9 0 97.6-34 114.4-81.2L639 471.1l-110.9 67.4z" fill="#09BB07" p-id="3159" data-spm-anchor-id="a313x.7781069.0.i4" class="selected"></path></svg>
+                            </a>
+                        </div>   
+                    </div>
+                </div>
+                <p class="store-home-domain"></p>
+                <div class="close"></div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="not-available-detail">
+                <h2 i18n="open_cookie_zero">Oops!</h2>
+                <p class="desc-1" style="display: none;" i18n="open_cookie_part1">Coupert is now disabled on this site, as you are using another coupon sites or rewards program.
+                <br>Click the botton below to re-activate Coupert and earn your rewards.</p>
+                <p class="desc-2" style="display: none;">Don't lose your 10% cash back! Click here to earn your rewards.</p>
+            </div>
+            <div class="sorry-reward-active">
+                <div class="coupon-codes" id="sorry-reward-active" style="display: none;">
+                    <p class="coupon">
+                        <span i18n="store_rewards_rate">Today's Cash Back Rate</span>
+                        <span class="text-bold" i18n="store_cashback_rate">
+                            <span class="cashback-rate">1 - 2%</span>
+                        </span>
+                    </p>
+                </div>
+                <button class="btn activate-now" id="activate-now" style="display: none;" i18n="activate_now">Activate Now</button>
+                <button class="btn activate" style="display: none;" id="store-work-active" i18n="store_rewards_active">Activate</button>
+                <button class="btn re-activate" style="display: none;" id="store-work-reactivate" i18n="store_rewards_reactive">Re-activate</button></div>
+            </div>
+        </div>
+    </div>
+    <!-- withdraw warning  -->
+  <!--   <div class="withdraw-warning" i18n="withdraw_warning">
+        <p><strong>Cashback Redeem Failed.</strong>  Please check your PayPal information or contact <a href="mailto:service@coupert.com">service@coupert.com</a>.</p>
+        <span class="withdraw-close"></span>
+    </div> -->
+    <!-- account balance -->
+    <!-- <p class="user-currrent-coupons" i18n="user_currrent_coupons">Your current balance:<span class="user-currrent-balances">$10,00 USD</span>
+    </p> -->
+    <!-- <div class="share-code-wraper" style="display:none "> -->
+                <!-- <p class="found-code-tips" i18n="found_code_tips">Found a code we don’t have?</p>
+                <p class="share-code-click" i18n="share_code_click">Share it with us,</p> -->
+           <!--  </div> -->
+            <!-- submit code wraper -->
+            <div class="submit-code-wraper" style="display: none">
+                <!-- submit box -->
+                <div class="submit-code-box" style="display: none">
+                    <div class="close-submit">
+                    </div>
+                    <div class="submit-tit" i18n="submit_tit">Submit a coupon</div>
+                    <input type="text" name="web-site" placeholder="Website" i18n_placeholder="web_site">
+                    <input type="text" name="code" placeholder="Code" i18n_placeholder="submit_code">
+                    <input type="date" name="expire-day" placeholder="Expiration (2019-12-01)" i18n_placeholder="expire_day">
+                    <input type="text" name="description" placeholder="Description" i18n_placeholder="submit_description">
+                    <button class="submit-btn" i18n="submit_btn">Submit</button>
+                    <div class="cancel-submit" i18n="cancel_submit">CANCEL</div>
+                </div>
+                <!-- submit success box -->
+                <div class="submit-success-box" style="display: none">
+                    <div class="close-submit">
+                    </div>
+                    <div class="thanks-after-success">
+                        <img src="../img/thanks-aftersubmit.png">
+                    </div>
+                    <p class="submit-success-tips" i18n="submit_success_tips">We’ll share your code with the Coupert community once a team member reviews it.</p>
+                    <div class="complete-submit" i18n="complete_submit">Done</div>
+                    <div class="submit-another-code" i18n="submit_another_code">Submit another code.</div>
+                </div>
+            </div>
+    <!-- footer -->
+    <footer>
+        <div class="share-code-wraper">
+             <p class="found-code-tips" style="display: inline;">Get any cupon that's not here yet?</p>
+            <button class="share-code-click"><i class="fa fa-plus"></i>&nbsp;ADD CUPON</button>
+        </div>
+    </footer>
+
+    <!-- script -->
+    
+    <script src="/js/lib/ga.js"></script>
+    <script src="/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/js/lib/md5.min.js"></script>
+    <script src="/js/lib/clipboard.min.js"></script>
+    <script src="/js/lib/datepicker.min.js"></script>
+    <script src="/js/lib/jquery.nicescroll.js"></script>
+    <script src="/js/lib/jquery.toast.min.js"></script>
+    <script src="/js/lib/jquery.chrome.i18n.js"></script>
+    <script src="/js/lib/js.local-session.js"></script>
+    <script src="/js/lib/js.cookie.js"></script>
+    <script src="/js/lib/js.storage.js"></script>
+    <script src="/js/lib/moment.js"></script>
+    <script src="/js/lib/polyfill.js"></script>
+    <script src="/js/lib/lang.js"></script>
+    <script src="/js/ext/common.js"></script>
+    <script type="text/javascript" src="/js/ext/trending.js"></script>
+    <script src="/js/ext/store-pop.js"></script>
+    <script src="/js/ext/select.js"></script>
+</body>
+</html>

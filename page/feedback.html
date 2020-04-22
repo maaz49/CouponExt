@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charselt="utf-8">
+        <link rel="stylesheet" type="text/css" href="/css/at-test.css"> 
+    </head>
+    <body>
+        <div class="at-test-box">
+            <div class="at-test-container">
+                <div class="at-test-result">
+                    <!-- review -->
+                    <div class="user-review">
+                        <div class="review-header" id="review-header">
+                            <h2 i18n="help_us_better">Your reviews help us serve you better!</h2>
+                        </div>
+                        <div class="review-content">
+                            <textarea placeholder="Your Feedback*" id="review" required="true"></textarea>
+                            <input type="text" class="email" id="user-email" placeholder="Email address*" required="true">
+                        </div>
+                        <div class="review-box clearfix">
+                            <p class="submit-success" style="display: none;" i18n="feedback_submit_msg">Submit Successed!</p>
+                            <!-- addClass: active -->
+                            <button class="submit" id="at-test-review-submit" i18n="at_test_submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="close-btn" id="at-test-success-close" data-flag="page-close"></button>
+            </div>
+        </div>
+        <script src="/js/lib/ga.js"></script>
+        <script src="/js/lib/jquery.min.js"></script>
+        <script src="/js/lib/jquery.chrome.i18n.js"></script>
+        <script src="/js/lib/js.local-session.js"></script>
+        <script src="/js/lib/js.cookie.js"></script>
+        <script src="/js/lib/lang.js"></script>
+        <script src="/js/ext/common.js"></script>
+        <script src="/js/ext/feedback.js"></script>
+    </body>
+</html>

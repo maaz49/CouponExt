@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charselt="utf-8">
+    <link rel="stylesheet" href="/css/datepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/at-test.css">
+</head>
+
+<body>
+    <div class="at-test-box">
+        <div class="at-test-container">
+            <div class="at-test-result">
+                <!-- failed -->
+                <div class="failed">
+                    <div class="failed-result">
+                        <div class="imagecenter">
+                            <img class="test-logo" sytle='' src="../img/logo.png" width="26" height="26">
+                        </div>
+                       <!--  <img class="failed-log" src="../img/failed-left-cashback.png"> -->
+                        <p class="falided-test-titel" i18n='falided_test_titel'>
+                            You already have the best price.
+                        </p>
+                        <!-- cashback -->
+                      <!--   <div class="cashback" style="display: none;"> -->
+                            <!-- log -->
+                                <!-- <p class="cashback-tips">
+                                    <span style="position: relative;" i18n="error_result_cashback_tips">
+                                        And Coupert offers you <span class="red-num">EXTRA </span><span class="cashback-num red-num"><span class="cashback-rate">1 - 2%</span><a class="how-it-works-link" data-url="/how-it-works" href="javascript:void(0)">How it works?</a></span>
+                                        &nbsp;cash back <br> for this order after purchase.
+                                    </span>
+                                </p> -->
+                            <!-- active -->
+                            <!-- <button class="cashback-active" i18n="error_cashback_activate" style="display: none;">Activate</button>
+                            <!-- activated -->
+                         <!--    <button class="cashback-activated" i18n="error_cashback_activated" style="display: none;">Activated</button>
+                        </div> -->
+                        <!-- no cashback -->
+                       <!--  <div class="no-cashback" style="display: none;">
+                            <p class="no-cashback-desc" i18n="no_cashback_desc">Coupert has tested all available coupons from<br> the Internet. Pay with confidence!
+                            </p>   
+                            <button class="unlock-rewards" i18n="no_cashback_unlock_rewards" style="display: none;">UNLOCK REWARDS NOW</button>
+                            <button class="rewards-unlocked" i18n="no_cashback_rewards_unlocked" style="display: none;">REWARDS UNLOCKED</button>
+                        </div> -->
+                        <button class="checkout" id="failed-checkout" data-flag="checkout"
+                        i18n="at_test_continue">CONTINUE TO CHECKOUT</button>
+                        <!-- check in  -->
+                       <!--  <div class="check-in-entrance">
+                            <img src="../img/check-in-picture.png">
+                            <span i18n="click_claim_gold_wrap">Click to claim your <br> Daily Check-in Gold!</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- feedback entrance -->
+            <p class="feedback-entrance" i18n="report_feedback">Report a feedback</p>
+            <button class="close-btn" id="at-test-failed-close" data-flag="page-close"></button>
+        </div>
+    </div>
+    <script src="/js/lib/ga.js"></script>
+    <script src="/js/lib/jquery.min.js"></script>
+    <script src="/js/lib/clipboard.min.js"></script>
+    <script src="/js/lib/md5.min.js"></script>
+    <script src="/js/lib/jquery.toast.min.js"></script>
+    <script src="/js/lib/jquery.chrome.i18n.js"></script>
+    <script src="/js/lib/promise.js"></script>
+    <script src="/js/lib/js.local-session.js"></script>
+    <script src="/js/lib/js.cookie.js"></script>
+    <script src="/js/lib/polyfill.js"></script>
+    <script src="/js/lib/lang.js"></script>
+    <script src="/js/ext/common.js"></script>
+    <script src="/js/ext/at-error-result.js"></script>
+</body>
+
+</html>
